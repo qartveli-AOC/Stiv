@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Parkur/Lobby.unity
+    guid: 30d91d35edefeba4bb5dfd406e433e9b
+  - enabled: 1
+    path: Assets/Scenes/Parkur/Mission1.unity
+    guid: da3f18e780ee1694b91a910ab6dfae99
+  m_configObjects: {}
