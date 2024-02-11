@@ -16,15 +16,18 @@ public class PlayerMotor : MonoBehaviour
     [SerializeField] Camera cam;
     
     
+    
 
 
     private void Start()
     {
+        
         controller = GetComponent<CharacterController>();       
     }
     private void Update()
     {
-        if(Input.GetKey(KeyCode.LeftShift))
+        
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             Speed = 8;        
             
@@ -45,12 +48,14 @@ public class PlayerMotor : MonoBehaviour
             movesSound.PlayOneShot(jump[Random.Range(0,3)]);      
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S))
         {
+            
             movesSound.pitch = Random.Range(0.9f, 1.6f);
             if (!movesSound.isPlaying)              
                 movesSound.PlayOneShot(leg[Random.Range(0,3)]);          
-        }      
+        }
         
-              isGrounded = controller.isGrounded;
+            
+        isGrounded = controller.isGrounded;
 
     }
     public void MoveStart(Vector2 value)
