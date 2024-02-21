@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Parkur/Lobby.unity
     guid: 30d91d35edefeba4bb5dfd406e433e9b
   - enabled: 0
-    path: Assets/Scenes/Parkur/Mission.unity
+    path: Assets/Scenes/Parkur/Mission Varint.unity
     guid: da3f18e780ee1694b91a910ab6dfae99
   - enabled: 1
     path: Assets/Scenes/Parkur/Mission 1.unity

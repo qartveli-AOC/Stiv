@@ -8,8 +8,8 @@ public class Door : MonoBehaviour
   [SerializeField] GameObject doorText;
   [SerializeField] Transform player;
   [SerializeField] float distance;
-   
-  
+
+    
     public void MissionStart()
     {
       float playerDistance = Vector3.Distance(player.position, transform.position);
