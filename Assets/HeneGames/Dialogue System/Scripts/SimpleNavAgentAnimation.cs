@@ -6,7 +6,7 @@ namespace HeneGames.DialogueSystem
 	public class SimpleNavAgentAnimation : MonoBehaviour
 	{
 		NavMeshAgent agent; //A reference to the navmesh agent component
-		[SerializeField] private Animator animator; //A reference to the player's animator component
+		[SerializeField] private Animator animator; //A reference to the TP's animator component
 
 		void Start()
 		{
