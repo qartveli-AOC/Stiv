@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,12 +12,15 @@ namespace HeneGames.DialogueSystem
         private float coolDownTimer;
         private bool dialogueIsOn;
         private DialogueTrigger dialogueTrigger;
-
+        
+        
+        
         public enum TriggerState
         {
             Collision,
             Input
         }
+        
 
         [Header("References")]
         [SerializeField] private AudioSource audioSource;
@@ -29,7 +33,7 @@ namespace HeneGames.DialogueSystem
         [Header("Dialogue")]
         [SerializeField] private TriggerState triggerState;
         [SerializeField] private List<NPC_Centence> sentences = new List<NPC_Centence>();
-
+        
         private void Update()
         {
             //Timer
@@ -290,6 +294,7 @@ namespace HeneGames.DialogueSystem
                 sentences[currentSentence].sentenceEvent.Invoke();
             }
         }
+       
     }
 
     [System.Serializable]
@@ -301,6 +306,8 @@ namespace HeneGames.DialogueSystem
 
         [TextArea(3, 10)]
         public string sentence;
+                
+
 
         public float skipDelayTime = 0.5f;
 

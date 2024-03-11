@@ -17,4 +17,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Parkur/Mission 1.unity
     guid: 8ec8181d004008d4d883261d70a9efd5
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 4d99a1ce4ec8114489a5bd69da2a9fb3, type: 2}

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Npc
   m_EditorClassIdentifier: 
   characterPhoto: {fileID: 21300000, guid: 49b5fe0d3f33fa14e892675b0e8e4f29, type: 3}
-  characterName: Villeger
+  characterName: 

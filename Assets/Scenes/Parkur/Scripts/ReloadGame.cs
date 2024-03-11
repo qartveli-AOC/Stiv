@@ -9,15 +9,14 @@ public class ReloadGame : MonoBehaviour
     private Animator animator;
     private Transform player;
     [SerializeField] SavePoint savePoint;
-    [HideInInspector] public static int heart=2;
-
+    
     private void Start()
     {
         savePoint = FindAnyObjectByType<SavePoint>();
+        
 
-
-        if (heart < 0)
-            heart = 2;
+        if (StaticValue.Heart < 0)
+            StaticValue.Heart = 2;
     }
     void OnTriggerEnter(Collider other)
     {
@@ -37,7 +36,7 @@ public class ReloadGame : MonoBehaviour
         animator.SetBool("bb", true);
         yield return new WaitForSeconds(0.44f);
         animator.SetBool("bb", false);
-        heart--;        
+        StaticValue.Heart--;        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
        
     }

@@ -14,8 +14,8 @@ public class SavePoint : MonoBehaviour
        
     private void Start()
     {
-        Debug.Log("  heart left  " + ReloadGame.heart);
-        if (ReloadGame.heart < 0)
+        Debug.Log("  heart left  " + StaticValue.Heart);
+        if (StaticValue.Heart < 0)
             Reset2();
 
                 for (int i = 0; i < values.Length; i++)
@@ -28,7 +28,7 @@ public class SavePoint : MonoBehaviour
         Vector3 temp = new Vector3(values[0], values[1], values[2]);
 
         
-        if (values[0] != 0 )
+        if (values[0] != 0 && values[1] != 0)
         {
             playerController.Move(temp - playerController.transform.position);
         }
@@ -44,7 +44,7 @@ public class SavePoint : MonoBehaviour
                 PlayerPrefs.SetFloat("value"+i, values[i]);
                 gameObject.SetActive(false);
         }
-    
+    [ContextMenu("Reset2")]
     private void Reset2()
     {
         for (int i = 0; i < values.Length; i++)
