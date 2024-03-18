@@ -1,0 +1,1310 @@
+fileFormatVersion: 2
+guid: 1750970b2a4c766488a0ee4adb34c916
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 720
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1226a733d3d186d439d591ebc8a612e1
+      internalID: -991767957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 720
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843310144dc293549abc5e98e7d5c645
+      internalID: 990848351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 720
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579ee5cbe512e914cb4fb3752f691cba
+      internalID: -158487391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 720
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c4b80d594358e4b88ea8d2565555e3
+      internalID: -1845464785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 672
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fd631942a8ff74c96ae8dbcac6c274
+      internalID: -284091250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e987f0000ff83cd4e87d22a41a3d0ac8
+      internalID: -535173231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 672
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b898db1101dcb4cb1232ace56edabb
+      internalID: -346425485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab27b9ef1769e854b9e999c748dcb91f
+      internalID: 705240712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 672
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6eef9aef5825dc429b5ac8272a47909
+      internalID: -636036516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a9f5dab7d1dbc4786ebee8331e4569
+      internalID: -1997019615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 672
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f0c6a944fa52643b30eba52b80feb7
+      internalID: -835726257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7081151049b1b3041852a1166dee8b5a
+      internalID: -544965684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 624
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9528cf999f3e0544d95f67d911b52e7d
+      internalID: -1942938996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 624
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874fde7e7ad0b8846b37042dca29fbd5
+      internalID: -1616619283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 624
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59e8cfa8ee66e1458c2f33248ea6925
+      internalID: 423102898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 624
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508e611aed878864e82ebb088e7c0b30
+      internalID: -1591050351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 627
+        width: 96
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f55513c7e22194d956e5732c79adac
+      internalID: 1948927397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 624
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dbd7009a02f924dbb3c67c049fe03c
+      internalID: -483562910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 630
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c43fa7c552a0849adc319a4cb4e7e6
+      internalID: 329329497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 624
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6afc4e5533d72a4eb910518f5a31e87
+      internalID: 1205140053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 625
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6813558c63a0b9a42881e1f054155a37
+      internalID: -1343121641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_49
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9546e7c801f1f1d4a96c8576af8ce829
+      internalID: -1543223051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6671f63f518c58241a1d8b698f794440
+      internalID: 557230782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_57
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 576
+        width: 96
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f3b6b49240c1746a2cfdc4ff34bdc0
+      internalID: -1612304381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_59
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 576
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d752d3d83d039eb40a3cbba92e7b899a
+      internalID: 2130743640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_60
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75619ca3f1ded8041882c0e3794f0bc8
+      internalID: -326481226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_61
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 576
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f71c23d385fc4469b4be056fe3f954
+      internalID: -33268655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_62
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 576
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635df8f2ed4d3e0459b5c71e360c606f
+      internalID: 160303122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_65
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280d04b382c6ad94a9b5e0b41cfcbd39
+      internalID: -749294959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 528
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b033df9330e7d4da1b01823c0acf43
+      internalID: -1970837855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_67
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 528
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fdd902f9b1a5e4a8baff1bc154aa82
+      internalID: 1910399941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_71
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 528
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12da542b1993ca44abb8a246c0e99386
+      internalID: -669046606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 528
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce681d720c292df41896fffac7ff2524
+      internalID: -555661611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_81
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 48
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf48b3061f48a5e4e9f1f266f6b72f14
+      internalID: 866646439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_83
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 481
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5beebf5ac288f49bcccb1cf1c3e848
+      internalID: -2006463079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_85
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8bba0dd29da244cb0579cf94096b4a
+      internalID: 837885157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5a4e12a63d446489a39a58ba261747
+      internalID: 2006175959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9017a2dd5631e1341bfe9b8dec0f18cf
+      internalID: -902325469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_117
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972abfffd869ba64a8a62c5357b943c1
+      internalID: 1493219311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_121
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 384
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cde606d5628b64da337fa22b959983
+      internalID: 1199881595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f337042990d9ba24a8209a72ef0b955e
+      internalID: -1372383386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_145
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96c498ab5396344dbb8edf905ac8154
+      internalID: 1443709477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_181
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5910551736aa442bee969954e45799
+      internalID: 446735075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2a20c346bee8b5c42a1b0a113ce24579
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_0: 771224094
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_1: -1818938226
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_10: -1845464785
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_100: -744524271
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_101: 1949579321
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_102: 923797371
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_103: 1642000566
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_104: -1928824450
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_105: 1421686037
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_106: -1272368218
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_107: 1513503917
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_108: 679047809
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_109: -1292230439
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_11: 1816659978
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_110: 2145937398
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_111: 808981190
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_112: -902325469
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_113: -836668120
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_114: -145026117
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_115: 1283067660
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_116: -2087852770
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_117: 1493219311
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_118: -1795952906
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_119: -772647214
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_12: -81962255
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_120: -1770121641
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_121: 1199881595
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_122: -639084128
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_123: -1604990367
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_124: -232702843
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_125: -1690307894
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_126: 50210992
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_127: 1678262349
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_128: -1372383386
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_129: -2042235601
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_13: -1453527233
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_130: 2057313988
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_131: 401770399
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_132: -194095720
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_133: 969356293
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_134: 958217987
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_135: 1141141081
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_136: 1012031049
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_137: 1070112649
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_138: 236775053
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_139: 1945147465
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_14: -1380847402
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_140: -1524373630
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_141: -1843837263
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_142: 827742492
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_143: 100711898
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_144: 522694877
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_145: 1443709477
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_146: -1788535560
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_147: 1678322896
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_148: 1661180948
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_149: 808994603
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_15: 579316662
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_150: -1391043318
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_151: -768226544
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_152: 76964988
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_153: -624230145
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_154: -1721730889
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_155: 922841462
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_156: 798305784
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_157: 1255088034
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_158: 222799700
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_159: -1238817752
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_16: 2105690012
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_160: 591137503
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_161: 914642547
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_162: -779094127
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_163: -1757271015
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_164: -1820299808
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_165: -134646322
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_166: 1605030237
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_167: 1579446026
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_168: -2131973938
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_169: -1332440562
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_17: -284091250
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_170: 2137480001
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_171: -840381726
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_172: 667972047
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_173: 1083632945
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_174: -16177194
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_175: 228061961
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_176: 1917314891
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_177: 20283023
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_178: -1626437657
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_179: 1539920459
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_18: -2013050114
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_180: 193238459
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_181: 446735075
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_182: -1200770713
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_183: 634431977
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_184: -1699572864
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_185: 500134430
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_186: -1045962555
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_187: -2089144899
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_188: 1964127410
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_189: -1311302341
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_19: -1097012350
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_190: 1639739770
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_191: -507586617
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_192: 1984741310
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_193: 1830693972
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_194: 78785206
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_195: 637666218
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_196: 399940099
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_197: -795279568
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_198: -106767864
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_199: -1034609240
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_2: 66806868
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_20: 1647625638
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_200: -110609
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_201: 1954272164
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_202: 1059550174
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_203: 729492320
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_204: -2096968431
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_205: 2109495154
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_206: -302659772
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_207: -564873571
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_208: -977771182
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_209: 28343141
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_21: 1272961268
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_210: 149842786
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_211: 1131773999
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_212: 2012115193
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_213: 740911874
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_214: -1582383092
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_215: 1176555624
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_216: -2033076166
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_217: 221476675
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_218: 200912730
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_219: -657173844
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_22: -535173231
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_220: -817975318
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_221: -673565739
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_222: -1672303168
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_223: 178569669
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_224: 1339924060
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_225: -1332008557
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_226: -540783421
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_227: -1508973985
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_228: -1777686987
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_229: 1592040664
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_23: -346425485
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_230: 898251963
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_231: 1502302286
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_232: 113469254
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_233: 1707688511
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_234: -947360053
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_235: -1063691340
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_236: 665774318
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_237: 48059597
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_238: 416187909
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_239: 1774381426
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_24: 705240712
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_240: 199464010
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_241: -1600621711
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_242: -565202590
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_243: 1445119968
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_244: 880909429
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_245: -889415858
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_246: 411242464
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_247: -867129470
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_248: -1437449846
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_249: 478378080
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_25: -636036516
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_250: 1145168227
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_251: 1335204791
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_252: -1974732482
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_253: 1307257970
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_26: -1997019615
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_27: -835726257
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_28: -1544546577
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_29: -80853540
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_3: 1776041772
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_30: 1820978534
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_31: 1908143526
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_32: -544965684
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_33: -1942938996
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_34: -1616619283
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_35: 423102898
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_36: -1637555091
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_37: -1591050351
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_38: 75287192
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_39: 1923843114
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_4: 367641321
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_40: 356915893
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_41: 1948927397
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_42: 1811073681
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_43: -483562910
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_44: 329329497
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_45: 1205140053
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_46: -1343121641
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_47: -976844732
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_48: -784592421
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_49: -1543223051
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_5: -936547014
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_50: 557230782
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_51: -1166133478
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_52: 637112259
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_53: -611942534
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_54: -1646375255
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_55: -1115617733
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_56: -1580016162
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_57: -1612304381
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_58: 1348574271
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_59: 2130743640
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_6: -2004726298
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_60: -326481226
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_61: -33268655
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_62: 160303122
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_63: 1381484615
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_64: 921048866
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_65: -749294959
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_66: -1970837855
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_67: 1910399941
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_68: 1371524588
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_69: 1676092420
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_7: -991767957
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_70: -1704434246
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_71: -669046606
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_72: -555661611
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_73: 366689148
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_74: 489228188
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_75: -618951178
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_76: 1109856152
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_77: 383681024
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_78: -1044552406
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_79: -1602498841
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_8: 990848351
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_80: 2012548367
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_81: 866646439
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_82: -1306736691
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_83: -2006463079
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_84: 1886407742
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_85: 837885157
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_86: -1386723742
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_87: 879747465
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_88: -1365486338
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_89: -1754966046
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_9: -158487391
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_90: 1203142009
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_91: -1390100646
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_92: -1104931130
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_93: -820190852
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_94: 1977501098
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_95: 2038748666
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_96: 2006175959
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_97: 427213166
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_98: -1317752161
+      48-483788_minecraft-forums-minecraft-texture-pack-sheet_99: 16196249
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
