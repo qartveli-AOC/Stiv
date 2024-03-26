@@ -6,6 +6,14 @@ TagManager:
   tags:
   - NPC
   - txt
+  - UndoMovePowerupCount
+  - Coal
+  - Gold
+  - Iron
+  - RedStone
+  - Diamond
+  - Bread
+  - Emirald
   layers:
   - Default
   - TransparentFX
