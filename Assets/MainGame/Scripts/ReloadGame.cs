@@ -33,9 +33,9 @@ public class ReloadGame : MonoBehaviour
     IEnumerator timer()
     {
         handPosition.gameObject.SetActive(false);
-        animator.SetBool("bb", true);
+        animator.SetBool("isDeath", true);
         yield return new WaitForSeconds(0.44f);
-        animator.SetBool("bb", false);
+        animator.SetBool("isDeath", false);
         StaticValue.Heart--;        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
        
