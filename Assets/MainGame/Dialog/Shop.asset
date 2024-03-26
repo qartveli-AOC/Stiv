@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f4a308dae7ffd048a8b0eb8d5ae4a02, type: 3}
   m_Name: Shop
   m_EditorClassIdentifier: 
-  characterPhoto: {fileID: 21300000, guid: 584ad949070f7a84d99bbfe38d751271, type: 3}
+  characterPhoto: {fileID: -835726257, guid: 1750970b2a4c766488a0ee4adb34c916, type: 3}
   characterName: 
