@@ -185,6 +185,7 @@
             </e>
             <e p="Controller" t="Include">
               <e p="TrapController" t="Include">
+                <e p="AirTrapController.cs" t="Include" />
                 <e p="ArrowController.cs" t="Include" />
                 <e p="DropTrapperController.cs" t="Include" />
               </e>
