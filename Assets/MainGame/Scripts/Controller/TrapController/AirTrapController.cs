@@ -1,47 +1,51 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
 public class AirTrapController : MonoBehaviour
 {
-    [SerializeField] private Vector3 airFlowDirection = Vector3.up; 
-    [SerializeField] private float airFlowSpeed = 5f; 
-    
-    private float liftDuration = 1f;
-    private bool isLifting = false; 
-    private CharacterController _player;
+    [SerializeField] private float airFlowSpeed = 5f;
+
+    public PlayerMotor playerMotor;
+    private Animator _animator;
+    private static readonly int JumpTrap = Animator.StringToHash("JumpTrap");
+
+
+    private void Start()
+    {
+        _animator = gameObject.GetComponentInParent<Animator>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            _player = other.GetComponent<CharacterController>();
-            StartCoroutine(LiftPlayer(other.transform));
-           
+            StartCoroutine(WaitJump());
         }
     }
-
-    private IEnumerator LiftPlayer(Transform playerTransform)
+    
+    private void TryJump()
     {
-        isLifting = true;
-        float elapsedTime = 0f;
-        Destroy(GetComponent<BoxCollider>());
-        
-        while (elapsedTime < liftDuration)
-        {
-            Vector3 currentPosition = playerTransform.position;
-            Vector3 targetPosition = currentPosition + airFlowDirection * airFlowSpeed * Time.deltaTime;
-
-            _player.Move(targetPosition - currentPosition);
-            Debug.Log("Working");
-            elapsedTime += Time.deltaTime;
-            
-            yield return null;
-        }
-        yield return new WaitForSeconds(1);
-        
-        gameObject.AddComponent<BoxCollider>().size = new Vector3(1,7.4f,1);
-        gameObject.GetComponent<BoxCollider>().center = new Vector3(0,3.2f,0);
-        gameObject.GetComponent<BoxCollider>().isTrigger = true;
-        isLifting = false;
+        playerMotor.Jump(airFlowSpeed);
+        _animator.SetTrigger(JumpTrap);
     }
+
+    private IEnumerator WaitJump()
+    {
+        TryJump();
+        gameObject.GetComponent<BoxCollider>().enabled  = false;
+        yield return new WaitForSeconds(0.5f);
+        gameObject.GetComponent<BoxCollider>().enabled  = true;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Vector3 pos = transform.TransformDirection(Vector3.forward) * 5;
+        Vector3 endPosition = Vector3.MoveTowards(transform.position, transform.position + transform.forward, 1f);
+    
+       
+        Gizmos.DrawRay(transform.position, transform.forward * 2);
+    }
+
+    
 }

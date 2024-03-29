@@ -8,6 +8,7 @@ namespace Controller
         [SerializeField] private Transform spawnPos;
         [SerializeField] private float spawnDelay = 1;
         private GameObject _spawnObject;
+        private AudioSource _audio;
 
 
         private void Awake()
@@ -17,13 +18,14 @@ namespace Controller
 
         private void Start()
         {
-           
+            _audio = GetComponent<AudioSource>();
             InvokeRepeating(nameof(Spawn),1,spawnDelay);
         }
 
         private void Spawn()
         {
             GameObject arrow = Instantiate(_spawnObject, spawnPos.position, Quaternion.identity);
+            _audio.Play();
             Destroy(arrow,10);
         }
     }
