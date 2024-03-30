@@ -165,9 +165,12 @@
         </e>
         <e p="MainGame" t="Include">
           <e p="Animation" t="Include">
+            <e p="EnemyAnimation" t="Include" />
             <e p="Materials" t="Include" />
           </e>
-          <e p="AudioTrap" t="Include" />
+          <e p="AudioTrap" t="Include">
+            <e p="Enemy" t="Include" />
+          </e>
           <e p="Dialog" t="Include" />
           <e p="Materials" t="Include" />
           <e p="mission" t="Include" />
@@ -178,15 +181,24 @@
           <e p="Prefab" t="Include">
             <e p="Resources" t="Include" />
           </e>
-          <e p="Scenes" t="Include" />
+          <e p="Scenes" t="Include">
+            <e p="Mission 1" t="Include" />
+            <e p="Mission 4" t="Include" />
+          </e>
           <e p="Scripts" t="Include">
+            <e p="BlockCrack.cs" t="Include" />
             <e p="CheckDialog.cs" t="Include" />
             <e p="Commponents" t="Include">
               <e p="DestroyComponent.cs" t="Include" />
+              <e p="HealthComponent.cs" t="Include" />
               <e p="OnCollisionComponent.cs" t="Include" />
               <e p="OnTriggerComponent.cs" t="Include" />
             </e>
             <e p="Controller" t="Include">
+              <e p="EnemyController" t="Include">
+                <e p="SkilletController.cs" t="Include" />
+                <e p="Test.cs" t="Include" />
+              </e>
               <e p="TrapController" t="Include">
                 <e p="AirTrapController.cs" t="Include" />
                 <e p="ArrowController.cs" t="Include" />
@@ -197,6 +209,7 @@
             <e p="DoorBuy.cs" t="Include" />
             <e p="GameManger.cs" t="Include" />
             <e p="GoHome.cs" t="Include" />
+            <e p="InMiningBlock.cs" t="Include" />
             <e p="LanSetter.cs" t="Include" />
             <e p="LevelsOpen.cs" t="Include" />
             <e p="LookPlayerBanner.cs" t="Include" />

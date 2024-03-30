@@ -21,19 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/AirTrap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/AirTrap.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/AirTrap.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/AirTrap.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Drop trapper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Drop trapper.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/AirTrapController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/AirTrapController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/DropTrapperController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/DropTrapperController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PACKAGES/TRAPS AND OBSTACLES/Traps-Obstacles/Animators/Obstacle-8.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PACKAGES/TRAPS AND OBSTACLES/Traps-Obstacles/Animators/Obstacle-8.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Arrow.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Arrow.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/PlayerInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/PlayerMotor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/PlayerMotor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Models/mini simple skeleton demo.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Models/mini simple skeleton demo.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Models/mini simple skeleton demo@Drop Kick.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Models/mini simple skeleton demo@Drop Kick.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Prefabs/Characters/mini simple skeleton demo_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Prefabs/Characters/mini simple skeleton demo_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +42,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/DestroyComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/DropTrapperController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/ArrowController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/OnTriggerComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -60,6 +57,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Input/PlayerMotor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Input/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/AirTrapController.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" />
       </list>
     </option>
   </component>
@@ -105,6 +106,8 @@
       <workItem from="1711458856953" duration="4467000" />
       <workItem from="1711630158583" duration="5409000" />
       <workItem from="1711695782305" duration="7867000" />
+      <workItem from="1711792488009" duration="6718000" />
+      <workItem from="1711802587209" duration="6776000" />
     </task>
     <servers />
   </component>
