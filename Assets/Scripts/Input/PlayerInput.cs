@@ -15,7 +15,7 @@ public class PlayerInput : MonoBehaviour
         onMove = input.OnMove;
         motor = GetComponent<PlayerMotor>();
         look = GetComponent<PlayerLook>();
-        onMove.Jump.performed += jjj => motor.Jump();
+        onMove.Jump.performed += jjj => motor.Jump(2);
     }
 
     private void FixedUpdate()
