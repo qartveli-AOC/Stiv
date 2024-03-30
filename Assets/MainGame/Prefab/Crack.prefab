@@ -95,7 +95,6 @@ GameObject:
   - component: {fileID: 4351043954478751086}
   - component: {fileID: 8530142244072126803}
   - component: {fileID: 661439755415957973}
-  - component: {fileID: 163458947147393649}
   - component: {fileID: 459397945749241855}
   m_Layer: 0
   m_Name: Crack
@@ -175,27 +174,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &163458947147393649
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3442086941827254968}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &459397945749241855
 Animator:
   serializedVersion: 5
