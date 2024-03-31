@@ -1,20 +1,25 @@
 using System;
 using Commponents;
+using UnityEditor.Animations;
 using UnityEngine;
 
 namespace Controller
 {
     public class Test : MonoBehaviour
     {
-        public HealthComponent enemy;
+        public LayerMask lar;
+        private float delay = 5;
+        private float timer = 0f;
+        public AnimationClip clip;
+        public AnimatorState state;
+        [field:SerializeField] public AnimatorStateInfo sssa;
 
+        public GameObject[] cubes ;
+        private int currrent;
 
-        public void Update()
+        private void Start()
         {
-            if (Input.GetKeyDown(KeyCode.A))
-            {
-                enemy.ModifyHealth(1);
-            }
+            state.speed = 1;
         }
     }
 }

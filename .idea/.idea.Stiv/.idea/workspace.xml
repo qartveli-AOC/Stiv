@@ -23,12 +23,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Animation/EnemyAnimation/Skileton.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Animation/EnemyAnimation/Skileton.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Models/mini simple skeleton demo.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Models/mini simple skeleton demo.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Models/mini simple skeleton demo@Drop Kick.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Models/mini simple skeleton demo@Drop Kick.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Prefabs/Characters/mini simple skeleton demo_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Prefabs/Characters/mini simple skeleton demo_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +42,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/DestroyComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/DropTrapperController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/gfgf.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/44C555C8-E770-4B01-B377-8D8DB4AE9028/56/198c4025/AnimatorStateInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/ArrowController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/44C555C8-E770-4B01-B377-8D8DB4AE9028/e2/3caf54c9/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/OnTriggerComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -58,9 +62,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Input/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/AirTrapController.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/Test.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/Test.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" />
+        <option value="$PROJECT_DIR$/Assets/gfgf.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/Test.cs" />
       </list>
     </option>
   </component>
@@ -108,6 +113,7 @@
       <workItem from="1711695782305" duration="7867000" />
       <workItem from="1711792488009" duration="6718000" />
       <workItem from="1711802587209" duration="6776000" />
+      <workItem from="1711882008986" duration="8334000" />
     </task>
     <servers />
   </component>

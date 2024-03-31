@@ -5,14 +5,14 @@ namespace Commponents
 {
     public class HealthComponent : MonoBehaviour
     {
-        [SerializeField] private float health;
+        [SerializeField] private int health;
         [Space(25)]
         [SerializeField] private UnityEvent onDamage;
         [Space(25)]
         [SerializeField] private UnityEvent onDie;
 
         
-        public void ModifyHealth(float damage)
+        public void ModifyHealth(int damage)
         {
             health -= damage;
             onDamage?.Invoke();
@@ -25,3 +25,4 @@ namespace Commponents
         }
     }
 }
+ 
