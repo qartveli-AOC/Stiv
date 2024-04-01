@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 4475848704454171304}
   - component: {fileID: 5460037753327535473}
   - component: {fileID: 3333238420928782996}
-  m_Layer: 0
+  - component: {fileID: 5798828874894185955}
+  m_Layer: 7
   m_Name: Diamond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,6 +39,7 @@ Transform:
   - {fileID: 8329686173754678586}
   - {fileID: 253927207822111334}
   - {fileID: 7570687273099984183}
+  - {fileID: 5315335500165096684}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4475848704454171304
@@ -111,6 +113,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5798828874894185955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938721681970128288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0af0398754e5e64d9e96f47f17c3bd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resNum: 4
+  chooseRes: 6
+  xTimeMining: 1
+  timeNeed: 0
+  kesRes: 
+  crackAnimator: {fileID: 0}
 --- !u!1 &1990046412422494820
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,7 +141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2653417257668616867}
   - component: {fileID: 1714445150125907648}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,7 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1688556387290125378}
   - component: {fileID: 3898845574694435209}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 253927207822111334}
   - component: {fileID: 1112115588478689554}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -373,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8329686173754678586}
   - component: {fileID: 2871519766822357189}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -457,7 +477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 799502939221781330}
   - component: {fileID: 525054558999713897}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7570687273099984183}
   - component: {fileID: 2488850514274735984}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,3 +635,93 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &8476300158710856066
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5496885994107254260}
+    m_Modifications:
+    - target: {fileID: 3112178735121356277, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442086941827254968, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Name
+      value: Crack
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442086941827254968, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3761262406771834503, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967272484353847629, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357330966121675741, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703480705215279987, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6730367423832899415, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+--- !u!4 &5315335500165096684 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+  m_PrefabInstance: {fileID: 8476300158710856066}
+  m_PrefabAsset: {fileID: 0}

@@ -16,14 +16,23 @@ public class StaticValue
 
 
     public static int Emerald;
-    public static int Coal = 5;
+    public static int Coal ;
     public static int Diamond;
     public static int RedStone;
     public static int Gold;
     public static int Iron;
     public static int Bread;
-    public static int BaseLevel;
+    public static int BaseLevel=1;
 
+    public static int CHEmerald;
+    public static int CHCoal ;
+    public static int CHDiamond;
+    public static int CHRedStone;
+    public static int CHGold;
+    public static int CHIron;
+    public static int CHBread;
     
+
+
 
 }

@@ -4,25 +4,33 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class DoorBuy : MonoBehaviour
 {
     [Header("____Resurses Price____")]
-    [SerializeField] private int Emirald;
+    [SerializeField] private int Emerald;
     [SerializeField] private int Diamond;
     [SerializeField] private int Gold;
     [SerializeField] private int Iron;
     [SerializeField] private int Bread;
     [SerializeField] private int Coal;
     [SerializeField] private int RedStone;
-    
+
+    [Header("____Base Level____")]
+    [SerializeField] private int baseLevelNeed = 1;
+    [SerializeField] private float colorChangeTime;
+
      private TextMeshProUGUI  emerald_txt;
      private TextMeshProUGUI  diamond_txt;
      private TextMeshProUGUI  gold_txt;
      private TextMeshProUGUI  iron_txt;
      private TextMeshProUGUI  bread_txt;
      private TextMeshProUGUI  coal_txt;
-     private TextMeshProUGUI  redStone_txt;
+     private TextMeshProUGUI  redStone_txt;   
+     private TextMeshProUGUI  baseLevel_txt;
+
+    bool isWorkCorutine = false;
 
     private string doorKey;
 
@@ -30,8 +38,10 @@ public class DoorBuy : MonoBehaviour
     [SerializeField] private int DoorActive = 1;
     public UnityEvent openLevels;  
     public UnityEvent closeLevels;
+    public UnityEvent needMoreLevel;
     public UnityEvent buyRoom;
     private Coroutine keyCheckCoroutine;
+    
     
     private void Start()
     {
@@ -44,36 +54,51 @@ public class DoorBuy : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(gameObject.name !="Portal")
-            keyCheckCoroutine = StartCoroutine(IKeyChecker());                     
+            keyCheckCoroutine = StartCoroutine(IKeyChecker());       
             openLevels?.Invoke();
+
         if (gameObject.name != "Portal")
             FindText();
+        
     }
     private void OnTriggerExit(Collider other)
     {
-        if (gameObject.name != "Portal")
-            StopCoroutine(keyCheckCoroutine);              
+        if (gameObject.name != "Portal")       
+            StopCoroutine(keyCheckCoroutine);            
+                
         closeLevels?.Invoke(); 
     }
     
     IEnumerator IKeyChecker()
     {
-        while (true)
+        if(baseLevelNeed<=StaticValue.BaseLevel)
         {
-            if (Input.GetKey(KeyCode.E))
+            while (true)
             {
-                if(StaticValue.Emerald >= Emirald && StaticValue.Coal >= Coal && StaticValue.RedStone >= RedStone && StaticValue.Diamond >= Diamond && StaticValue.Bread >= Bread&& StaticValue.Iron >= Iron&& StaticValue.Gold >= Gold)
+                if (Input.GetKey(KeyCode.E))
                 {
-                    closeLevels?.Invoke();
-                    StopCoroutine(keyCheckCoroutine);
-                    PriceCount();
-                    buyRoom?.Invoke();
-                    PlayerPrefs.SetInt(doorKey, 0);
-                    gameObject.SetActive(false);
-                }
-            }    
-            yield return null;
-        }   
+                    StartColorChange();
+                    if (StaticValue.Emerald >= Emerald && StaticValue.Coal >= Coal && StaticValue.RedStone >= RedStone && StaticValue.Diamond >= Diamond && StaticValue.Bread >= Bread && StaticValue.Iron >= Iron && StaticValue.Gold >= Gold)
+                    {
+                        
+                        closeLevels?.Invoke();
+                        StopCoroutine(keyCheckCoroutine);
+                        PriceCount();
+                        buyRoom?.Invoke();
+                        PlayerPrefs.SetInt(doorKey, 0);
+                        gameObject.SetActive(false);
+                    }
+                    
+                }              
+                yield return null;       
+            }
+        }
+        else
+            needMoreLevel?.Invoke();
+        baseLevel_txt = GameObject.FindWithTag("BaseLevel").GetComponent<TextMeshProUGUI>();
+        baseLevel_txt.text = baseLevelNeed.ToString();
+
+
     }
     [ContextMenu("GiveGold")]
     public void GiveGold()
@@ -85,8 +110,8 @@ public class DoorBuy : MonoBehaviour
 
     private void PriceCount()
     {
-        StaticValue.Emerald = StaticValue.Emerald - Emirald;
-        StaticValue.Coal = StaticValue.Emerald - Emirald;
+        StaticValue.Emerald = StaticValue.Emerald - Emerald;
+        StaticValue.Coal = StaticValue.Coal - Coal;
         StaticValue.RedStone = StaticValue.RedStone - RedStone;
         StaticValue.Diamond = StaticValue.Diamond - Diamond;
         StaticValue.Bread = StaticValue.Bread - Bread;
@@ -96,22 +121,158 @@ public class DoorBuy : MonoBehaviour
 
     private void FindText()
     {
-        emerald_txt = GameObject.FindWithTag("Emirald").GetComponent<TextMeshProUGUI>();
-        diamond_txt = GameObject.FindWithTag("Diamond").GetComponent<TextMeshProUGUI>();
-        gold_txt = GameObject.FindWithTag("Gold").GetComponent<TextMeshProUGUI>();
-        iron_txt = GameObject.FindWithTag("Iron").GetComponent<TextMeshProUGUI>();
-        bread_txt = GameObject.FindWithTag("Bread").GetComponent<TextMeshProUGUI>();
-        coal_txt = GameObject.FindWithTag("Coal").GetComponent<TextMeshProUGUI>();
-        redStone_txt = GameObject.FindWithTag("RedStone").GetComponent<TextMeshProUGUI>();
-
-        emerald_txt.text = Emirald.ToString();
-        diamond_txt.text = Diamond.ToString();
-        gold_txt.text = Gold.ToString();
-        iron_txt.text = Iron.ToString();
-        bread_txt.text = Bread.ToString();
-        coal_txt.text = Coal.ToString();
-        redStone_txt.text = RedStone.ToString();
-
+        if(Emerald != 0)
+        {
+            emerald_txt = GameObject.FindWithTag("Emerald").GetComponent<TextMeshProUGUI>();
+            emerald_txt.text = Emerald.ToString();
+        }            
+        if (Diamond != 0)
+        {
+            diamond_txt = GameObject.FindWithTag("Diamond").GetComponent<TextMeshProUGUI>();
+            diamond_txt.text = Diamond.ToString();
+        }           
+        if (Gold != 0)
+        {
+            gold_txt = GameObject.FindWithTag("Gold").GetComponent<TextMeshProUGUI>();
+            gold_txt.text = Gold.ToString();
+        }          
+        if (Iron != 0)
+        {
+            iron_txt = GameObject.FindWithTag("Iron").GetComponent<TextMeshProUGUI>();
+            iron_txt.text = Iron.ToString();
+        }           
+        if (Bread != 0)
+        {
+            bread_txt = GameObject.FindWithTag("Bread").GetComponent<TextMeshProUGUI>();
+            bread_txt.text = Bread.ToString();
+        }            
+        if (Coal != 0)
+        {
+            coal_txt = GameObject.FindWithTag("Coal").GetComponent<TextMeshProUGUI>();
+            coal_txt.text = Coal.ToString();
+        }           
+        if (RedStone != 0)
+        {
+            redStone_txt = GameObject.FindWithTag("RedStone").GetComponent<TextMeshProUGUI>();
+            redStone_txt.text = RedStone.ToString();
+        }                 
+    }
+    private void StartColorChange()
+    {
+        
+        if(isWorkCorutine == false)
+          {
+            isWorkCorutine = true;
+            StartCoroutine(ChangeEmerald());
+            StartCoroutine(ChangeCoal());
+            StartCoroutine(ChangeRedStone());
+            StartCoroutine(ChangeDiamond());
+            StartCoroutine(ChangeBread());
+            StartCoroutine(ChangeIron());
+            StartCoroutine(ChangeGold());
+            
+        }
+        
+    }
+   
+    IEnumerator ChangeEmerald()
+    {
+        if (StaticValue.Emerald < Emerald && Emerald !=0)
+        {
+            emerald_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            emerald_txt.color = Color.black;
+            yield return new WaitForSeconds(colorChangeTime);
+            emerald_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            emerald_txt.color = Color.black;
+            isWorkCorutine = false;
+        }
+      
+    }
+    IEnumerator ChangeCoal()
+    {
+        if (StaticValue.Coal < Coal && Coal != 0)
+        {
+            coal_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            coal_txt.color = Color.black;
+            yield return new WaitForSeconds(colorChangeTime);
+            coal_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            coal_txt.color = Color.black;
+            isWorkCorutine = false;
+        }     
+    }
+    IEnumerator ChangeRedStone()
+    {
+        if (StaticValue.RedStone < RedStone && RedStone != 0)
+        {
+            redStone_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            redStone_txt.color = Color.black;
+            yield return new WaitForSeconds(colorChangeTime);
+            redStone_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            redStone_txt.color = Color.black;
+            isWorkCorutine = false;
+        }       
+    }
+    IEnumerator ChangeDiamond()
+    {
+        if (StaticValue.Diamond < Diamond && Diamond != 0)
+        {
+            diamond_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            diamond_txt.color = Color.black;
+            yield return new WaitForSeconds(colorChangeTime);
+            diamond_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            diamond_txt.color = Color.black;
+            isWorkCorutine = false;
+        }        
+    }
+    IEnumerator ChangeBread()
+    {
+        if (StaticValue.Bread < Bread && Bread != 0)
+        {
+            bread_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            bread_txt.color = Color.black;
+            yield return new WaitForSeconds(colorChangeTime);
+            bread_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            bread_txt.color = Color.black;
+            isWorkCorutine = false;
+        }     
+    }
+    IEnumerator ChangeIron()
+    {
+        if (StaticValue.Iron < Iron && Iron != 0)
+        {
+            iron_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            iron_txt.color = Color.black;
+            yield return new WaitForSeconds(colorChangeTime);
+            iron_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            iron_txt.color = Color.black;
+            isWorkCorutine = false;
+        }
+    }
+    IEnumerator ChangeGold()
+    {
+        if (StaticValue.Gold < Gold && Gold != 0)
+        {
+            gold_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            gold_txt.color = Color.black;
+            yield return new WaitForSeconds(colorChangeTime);
+            gold_txt.color = Color.red;
+            yield return new WaitForSeconds(colorChangeTime);
+            gold_txt.color = Color.black;
+            isWorkCorutine = false;
+        }
     }
 }
 

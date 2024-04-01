@@ -17,5 +17,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainGame/Scenes/Mission 3.unity
     guid: bb5255eedf6b77249b9deef59ceefc6b
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 4.unity
+    guid: 2189d491024f13a47a8b2ce382dd3de0
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission Varint.unity
+    guid: da3f18e780ee1694b91a910ab6dfae99
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 4d99a1ce4ec8114489a5bd69da2a9fb3, type: 2}

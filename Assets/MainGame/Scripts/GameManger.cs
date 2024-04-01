@@ -22,6 +22,8 @@ public class GameManger : MonoBehaviour
         LoadResurses();
         GiveText();
         MenuBackground.SetActive(false);
+
+
     }
     private void Update()
     {
@@ -37,15 +39,17 @@ public class GameManger : MonoBehaviour
             }
         }
         
-        Debug.Log( "  Coal  "+ StaticValue.Coal );
+        
     }
     [ContextMenu("GiveGold")]
     public void GiveGold()
     {
-        StaticValue.Gold = StaticValue.Gold + 1;
+        StaticValue.Gold = StaticValue.Iron + 1;
+        
         PlayerPrefs.SetInt("Gold", StaticValue.Gold);
+        PlayerPrefs.SetInt("BaseLevel", 1);
     }
-
+   
     public void SavePrice()
     {
         PlayerPrefs.SetInt("Emerald", StaticValue.Emerald);
@@ -57,6 +61,7 @@ public class GameManger : MonoBehaviour
         PlayerPrefs.SetInt("Gold", StaticValue.Gold);
         PlayerPrefs.SetInt("BaseLevel", StaticValue.BaseLevel);
         GiveText();
+        
     }
 
 
@@ -75,7 +80,17 @@ public class GameManger : MonoBehaviour
         StaticValue.Bread = PlayerPrefs.GetInt("Bread", StaticValue.Bread);
         StaticValue.Iron = PlayerPrefs.GetInt("Iron", StaticValue.Iron);
         StaticValue.Gold = PlayerPrefs.GetInt("Gold", StaticValue.Gold);
-        StaticValue.BaseLevel = PlayerPrefs.GetInt("BaseLevel", StaticValue.BaseLevel);
+        StaticValue.BaseLevel = PlayerPrefs.GetInt("BaseLevel", 1);
+
+
+        
+        StaticValue.CHEmerald = PlayerPrefs.GetInt("CHEmerald", StaticValue.CHEmerald);
+        StaticValue.CHCoal = PlayerPrefs.GetInt("CHCoal", StaticValue.CHCoal);
+        StaticValue.CHRedStone = PlayerPrefs.GetInt("CHRedStone", StaticValue.CHRedStone);
+        StaticValue.CHDiamond = PlayerPrefs.GetInt("CHDiamond", StaticValue.CHDiamond);
+        StaticValue.CHBread = PlayerPrefs.GetInt("CHBread", StaticValue.CHBread);
+        StaticValue.CHIron = PlayerPrefs.GetInt("CHIron", StaticValue.CHIron);
+        StaticValue.CHGold = PlayerPrefs.GetInt("CHGold", StaticValue.CHGold);
 
     }
     public void GiveText()
