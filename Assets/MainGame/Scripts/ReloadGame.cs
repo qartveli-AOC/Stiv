@@ -15,8 +15,8 @@ public class ReloadGame : MonoBehaviour
         savePoint = FindAnyObjectByType<SavePoint>();
         
 
-        if (StaticValue.Heart < 0)
-            StaticValue.Heart = 2;
+        if (StaticValue.Heart <= 0)
+            StaticValue.Heart = 3;
     }
     void OnTriggerEnter(Collider other)
     {

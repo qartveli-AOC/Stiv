@@ -204,6 +204,7 @@
                 <e p="AirTrapController.cs" t="Include" />
                 <e p="ArrowController.cs" t="Include" />
                 <e p="DropTrapperController.cs" t="Include" />
+                <e p="TNTTrap.cs" t="Include" />
               </e>
             </e>
             <e p="Door.cs" t="Include" />

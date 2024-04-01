@@ -7,19 +7,23 @@ namespace Controller
 {
     public class Test : MonoBehaviour
     {
-        public LayerMask lar;
-        private float delay = 5;
-        private float timer = 0f;
-        public AnimationClip clip;
-        public AnimatorState state;
-        [field:SerializeField] public AnimatorStateInfo sssa;
 
-        public GameObject[] cubes ;
-        private int currrent;
+        private float num1 = 1;
+        public float num2;
+       
+
+      
 
         private void Start()
         {
-            state.speed = 1;
+            
+            num1 *= num2 + 3;
+            Debug.Log(num1 + ";;;;1 ");
+            num1 = 1 * num2 + 3;
+            Debug.Log(num1 + " ;;;2222232");
+            num1 = (1 * num2) + 3;
+            Debug.Log(num1 + " ;;;;;");
+            
         }
     }
 }
