@@ -13,6 +13,7 @@ public class AirTrapController : MonoBehaviour
 
     private void Start()
     {
+        playerMotor = FindObjectOfType<PlayerMotor>();
         _animator = gameObject.GetComponentInParent<Animator>();
     }
 
@@ -38,14 +39,7 @@ public class AirTrapController : MonoBehaviour
         gameObject.GetComponent<BoxCollider>().enabled  = true;
     }
 
-    private void OnDrawGizmos()
-    {
-        Vector3 pos = transform.TransformDirection(Vector3.forward) * 5;
-        Vector3 endPosition = Vector3.MoveTowards(transform.position, transform.position + transform.forward, 1f);
-    
-       
-        Gizmos.DrawRay(transform.position, transform.forward * 2);
-    }
+
 
     
 }
