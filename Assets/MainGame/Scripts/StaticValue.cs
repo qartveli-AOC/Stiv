@@ -9,7 +9,7 @@ public class StaticValue
     public static float Music;
 
 
-    public static int Heart;    
+    public static int Heart = 10;    
     public static int EarnPower;
     public static float Attack;
     public static float RunSpeed;

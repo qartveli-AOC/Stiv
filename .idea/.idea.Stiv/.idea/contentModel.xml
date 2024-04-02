@@ -189,6 +189,7 @@
           <e p="Scripts" t="Include">
             <e p="BlockCrack.cs" t="Include" />
             <e p="CheckDialog.cs" t="Include" />
+            <e p="ChestScript.cs" t="Include" />
             <e p="Commponents" t="Include">
               <e p="DestroyComponent.cs" t="Include" />
               <e p="HealthComponent.cs" t="Include" />
@@ -207,6 +208,7 @@
                 <e p="TNTTrap.cs" t="Include" />
               </e>
             </e>
+            <e p="DisableNull.cs" t="Include" />
             <e p="Door.cs" t="Include" />
             <e p="DoorBuy.cs" t="Include" />
             <e p="GameManger.cs" t="Include" />
