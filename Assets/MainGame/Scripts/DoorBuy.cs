@@ -28,7 +28,7 @@ public class DoorBuy : MonoBehaviour
      private TextMeshProUGUI  bread_txt;
      private TextMeshProUGUI  coal_txt;
      private TextMeshProUGUI  redStone_txt;   
-     private TextMeshProUGUI  baseLevel_txt;
+     public TextMeshProUGUI  baseLevel_txt;
 
     bool isWorkCorutine = false;
 
@@ -38,7 +38,7 @@ public class DoorBuy : MonoBehaviour
     [SerializeField] private int DoorActive = 1;
     public UnityEvent openLevels;  
     public UnityEvent closeLevels;
-    public UnityEvent needMoreLevel;
+    public UnityEvent closeMoreLevel;
     public UnityEvent buyRoom;
     private Coroutine keyCheckCoroutine;
     
@@ -53,30 +53,28 @@ public class DoorBuy : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(gameObject.name !="Portal")
-            keyCheckCoroutine = StartCoroutine(IKeyChecker());       
             openLevels?.Invoke();
-
-        if (gameObject.name != "Portal")
             FindText();
-        
+            keyCheckCoroutine = StartCoroutine(IKeyChecker());          
+              
     }
     private void OnTriggerExit(Collider other)
     {
-        if (gameObject.name != "Portal")       
+            if(baseLevelNeed <= StaticValue.BaseLevel)
             StopCoroutine(keyCheckCoroutine);            
-                
-        closeLevels?.Invoke(); 
+            closeLevels?.Invoke(); 
     }
     
     IEnumerator IKeyChecker()
     {
         if(baseLevelNeed<=StaticValue.BaseLevel)
         {
+            closeMoreLevel?.Invoke();
             while (true)
             {
                 if (Input.GetKey(KeyCode.E))
                 {
+                    Debug.Log("E");
                     StartColorChange();
                     if (StaticValue.Emerald >= Emerald && StaticValue.Coal >= Coal && StaticValue.RedStone >= RedStone && StaticValue.Diamond >= Diamond && StaticValue.Bread >= Bread && StaticValue.Iron >= Iron && StaticValue.Gold >= Gold)
                     {
@@ -93,10 +91,11 @@ public class DoorBuy : MonoBehaviour
                 yield return null;       
             }
         }
-        else
-            needMoreLevel?.Invoke();
-        baseLevel_txt = GameObject.FindWithTag("BaseLevel").GetComponent<TextMeshProUGUI>();
-        baseLevel_txt.text = baseLevelNeed.ToString();
+        
+                      
+            
+        
+            
 
 
     }
@@ -155,7 +154,11 @@ public class DoorBuy : MonoBehaviour
         {
             redStone_txt = GameObject.FindWithTag("RedStone").GetComponent<TextMeshProUGUI>();
             redStone_txt.text = RedStone.ToString();
-        }                 
+        }
+            baseLevel_txt = GameObject.FindWithTag("BaseLevel").GetComponent<TextMeshProUGUI>();
+            baseLevel_txt.text = baseLevelNeed.ToString();
+
+        
     }
     private void StartColorChange()
     {
