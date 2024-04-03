@@ -1,10 +1,12 @@
 using System.Collections;
+using Commponents;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class BlockCrack : MonoBehaviour
 {   
    [SerializeField] private LayerMask layerMask;
+   [SerializeField] private LayerMask skilletonLayer;
    [SerializeField] private Animator mineAnimation;
     private InMiningBlock firstBlock;
     private InMiningBlock secondBlock;
@@ -30,13 +32,32 @@ public class BlockCrack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+     
+        
         
 
         Vector3 centerCamera = new Vector3(Screen.width/2,Screen.height/2,0);
         Ray rayOrigin = mainCamera.ScreenPointToRay(centerCamera);
         Vector3 rayDirection = transform.forward;
         Debug.DrawRay(rayOrigin.origin, rayDirection * maxDistance, Color.red);
+        
+        
+        
+        if (Physics.Raycast(rayOrigin, out hit, maxDistance, skilletonLayer))
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                hit.transform.GetComponent<HealthComponent>().ModifyHealth(1);
+                
+                Debug.Log("IaPOPAL PO SKILLETON ");   
+            }
+           
+        }
+        
+        
+        
+        
+        
         
         if (Physics.Raycast(rayOrigin, out hit, maxDistance, layerMask))
         {          
@@ -95,6 +116,7 @@ public class BlockCrack : MonoBehaviour
                 mineAnimation.SetBool("isMining", false);
         }
 
+        
 
 
     }

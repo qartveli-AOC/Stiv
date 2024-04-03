@@ -771,15 +771,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1334645965942651757, guid: 6a7f80d3d32e97340b5c6955138f4d38, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 124.02446
+      value: 85.827
       objectReference: {fileID: 0}
     - target: {fileID: 1334645965942651757, guid: 6a7f80d3d32e97340b5c6955138f4d38, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 45.884808
+      value: 27.16
       objectReference: {fileID: 0}
     - target: {fileID: 1334645965942651757, guid: 6a7f80d3d32e97340b5c6955138f4d38, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -39.453922
+      value: -36.403816
       objectReference: {fileID: 0}
     - target: {fileID: 1334645965942651757, guid: 6a7f80d3d32e97340b5c6955138f4d38, type: 3}
       propertyPath: m_LocalRotation.w
@@ -910,9 +910,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1509776982933878188, guid: 6a7f80d3d32e97340b5c6955138f4d38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2857305788158408843}
-    - targetCorrespondingSourceObject: {fileID: 1509776982933878188, guid: 6a7f80d3d32e97340b5c6955138f4d38, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7161628852307806105}
     - targetCorrespondingSourceObject: {fileID: 8008528638258285857, guid: 6a7f80d3d32e97340b5c6955138f4d38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2318011312535472948}
@@ -1042,25 +1039,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &7161628852307806105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32166213236408928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68f96d45fec716443ac38727357462c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 30
-  onDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  onDie:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!4 &433493754352438433 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1334645965942651757, guid: 6a7f80d3d32e97340b5c6955138f4d38, type: 3}

@@ -9,7 +9,7 @@ namespace Controller
 {
     public class SkilletController : MonoBehaviour
     {
-        private NavMeshAgent _agent;
+        public NavMeshAgent _agent;
         private Transform _target;
         private Animator _animator;
         public List<Transform> points = new List<Transform>();
@@ -43,6 +43,11 @@ namespace Controller
 
             _coroutine = StartCoroutine(coroutine);
         }
+        
+        
+        
+        
+        
 
         private IEnumerator PatrolState()
         {
@@ -59,8 +64,7 @@ namespace Controller
                         }
                     }
 
-                    _animator.SetBool(Move, false);
-                    yield return new WaitForSeconds(1);
+                    
                     _animator.SetBool(Move, true);
                     Debug.Log("Patroling");
                     _agent.SetDestination(points[_currentIndex].position);
@@ -80,8 +84,18 @@ namespace Controller
             while (true)
             {
                 _animator.SetBool(Move, true);
-                _agent.SetDestination(_target.position);
-                LookAtPlayer();
+                if (_agent != null)
+                {
+                    if (_target != null)
+                    {
+                        _agent.SetDestination(_target.position);  
+                    }
+                    
+                    
+                }
+                
+               
+                
                 
                 Debug.Log("Moving Player");
 
@@ -91,36 +105,28 @@ namespace Controller
                     yield break;
                 }
 
-                if (Vector3.Distance(_agent.transform.position, _target.position) <= 2f)
+                if (Vector3.Distance(_agent.transform.position, _target.position) <= 3f)
                 {
                     ChangeState(AttackState());
                     _currentIndex = 0;
+                    yield break;
                 }
 
                 yield return null;
             }
         }
 
-        private void LookAtPlayer()
-        {
-            Vector3 directionToTarget = (_target.position - _agent.transform.position).normalized;
-
-                
-            Quaternion targetRotation = Quaternion.LookRotation(new Vector3(directionToTarget.x, 0, directionToTarget.z));
-
-                
-            _agent.transform.rotation = Quaternion.Euler(0, targetRotation.eulerAngles.y, 0);
-        }
+      
 
         private IEnumerator AttackState()
         {
             _animator.SetBool(Move, false);
             _animator.SetTrigger(Attack);
             Debug.Log("Attack");
-            yield return new WaitForSeconds(1);
-            _target.GetComponent<HealthComponent>().ModifyHealth(1);
-            _animator.SetBool(Move, true);
+            yield return new WaitForSeconds(3);
+            StaticValue.Heart--;
             ChangeState(MovePlayerState());
         }
+        
     }
 }

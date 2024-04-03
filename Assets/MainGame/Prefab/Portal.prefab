@@ -160,8 +160,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4768472780277676448}
   - component: {fileID: 5574931803324005793}
-  - component: {fileID: 3604395701074379218}
   - component: {fileID: 3174519382153974298}
+  - component: {fileID: 4623432371965647607}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Untagged
@@ -207,59 +207,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3604395701074379218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8891083692923595472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b8db75ed96847c4da1f4e69b35e85a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Emirald: 0
-  Diamond: 0
-  Gold: 0
-  Iron: 0
-  Bread: 0
-  Coal: 0
-  RedStone: 0
-  DoorActive: 1
-  openLevels:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  closeLevels:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  buyRoom:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!65 &3174519382153974298
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -281,6 +228,47 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.047635, y: 4.9836755, z: 1.773201}
   m_Center: {x: -1.5238175, y: 1.9918368, z: 0.3866005}
+--- !u!114 &4623432371965647607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8891083692923595472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be01aeea9678cd446bd4cc3c40631122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  home: 0
+  nextLevelNum: 0
+  levelFinish:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &651812719514958255
 PrefabInstance:
   m_ObjectHideFlags: 0
