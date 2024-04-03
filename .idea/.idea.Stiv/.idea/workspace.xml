@@ -20,21 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Animation/EnemyAnimation/AnimatorState.preset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Animation/EnemyAnimation/AnimatorState.preset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Animation/EnemyAnimation/Skileton.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Animation/EnemyAnimation/Skileton.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Models/Player 1 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Models/Player 1 Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Points.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Points.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/TrapOverhead .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/TrapOverhead .prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/mini simple skeleton demo_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/mini simple skeleton demo_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Portal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 10.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/StaticValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/StaticValue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 7.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 9.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/GoHome.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/GoHome.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Textures/AnimatorState.preset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Textures/AnimatorState.preset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +77,7 @@
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/GoHome.cs" />
       </list>
     </option>
   </component>
@@ -127,6 +128,7 @@
       <workItem from="1711882008986" duration="8334000" />
       <workItem from="1711958546716" duration="12907000" />
       <workItem from="1712064985540" duration="7065000" />
+      <workItem from="1712124168624" duration="1800000" />
     </task>
     <servers />
   </component>
