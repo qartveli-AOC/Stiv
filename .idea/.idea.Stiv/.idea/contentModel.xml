@@ -179,6 +179,7 @@
           <e p="Models" t="Include">
             <e p="Materials" t="Include" />
           </e>
+          <e p="NeedTake" t="Include" />
           <e p="Prefab" t="Include">
             <e p="Resources" t="Include" />
           </e>
@@ -219,8 +220,10 @@
             <e p="LookPlayerBanner.cs" t="Include" />
             <e p="ReloadGame.cs" t="Include" />
             <e p="SavePoint.cs" t="Include" />
+            <e p="ShowHeart.cs" t="Include" />
             <e p="StaticValue.cs" t="Include" />
             <e p="TrapTimer.cs" t="Include" />
+            <e p="UpgradeInShop.cs" t="Include" />
           </e>
           <e p="Textures" t="Include">
             <e p="Materials" t="Include" />

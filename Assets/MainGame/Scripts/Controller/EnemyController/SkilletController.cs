@@ -9,6 +9,7 @@ namespace Controller
 {
     public class SkilletController : MonoBehaviour
     {
+        [HideInInspector]
         public NavMeshAgent _agent;
         private Transform _target;
         private Animator _animator;
@@ -18,8 +19,7 @@ namespace Controller
         private Coroutine _coroutine;
 
         private static readonly int Move = Animator.StringToHash("Move");
-        private static readonly int Attack = Animator.StringToHash("Attack");
-        
+
 
         private void Start()
         {
@@ -31,7 +31,7 @@ namespace Controller
         {
             _agent = GetComponent<NavMeshAgent>();
             _target = GameObject.FindWithTag("Player").transform;
-            _animator = GetComponent<Animator>();
+            _animator = GetComponentInChildren<Animator>();
         }
 
         private void ChangeState(IEnumerator coroutine)
@@ -105,9 +105,8 @@ namespace Controller
                     yield break;
                 }
 
-                if (Vector3.Distance(_agent.transform.position, _target.position) <= 3f)
+                if (Vector3.Distance(_agent.transform.position, _target.position) <= 1f)
                 {
-                    ChangeState(AttackState());
                     _currentIndex = 0;
                     yield break;
                 }
@@ -118,15 +117,7 @@ namespace Controller
 
       
 
-        private IEnumerator AttackState()
-        {
-            _animator.SetBool(Move, false);
-            _animator.SetTrigger(Attack);
-            Debug.Log("Attack");
-            yield return new WaitForSeconds(3);
-            StaticValue.Heart--;
-            ChangeState(MovePlayerState());
-        }
+       
         
     }
 }
