@@ -166,7 +166,10 @@
         </e>
         <e p="MainGame" t="Include">
           <e p="Animation" t="Include">
-            <e p="EnemyAnimation" t="Include" />
+            <e p="EnemyAnimation" t="Include">
+              <e p="Skelleton" t="Include" />
+              <e p="Slime" t="Include" />
+            </e>
             <e p="Materials" t="Include" />
           </e>
           <e p="AudioTrap" t="Include">
@@ -198,7 +201,7 @@
             </e>
             <e p="Controller" t="Include">
               <e p="EnemyController" t="Include">
-                <e p="SkilletController.cs" t="Include" />
+                <e p="MobController.cs" t="Include" />
                 <e p="Test.cs" t="Include" />
               </e>
               <e p="TrapController" t="Include">
@@ -219,8 +222,10 @@
             <e p="LookPlayerBanner.cs" t="Include" />
             <e p="ReloadGame.cs" t="Include" />
             <e p="SavePoint.cs" t="Include" />
+            <e p="ShowHeart.cs" t="Include" />
             <e p="StaticValue.cs" t="Include" />
             <e p="TrapTimer.cs" t="Include" />
+            <e p="UpgradeInShop.cs" t="Include" />
           </e>
           <e p="Textures" t="Include">
             <e p="Materials" t="Include" />

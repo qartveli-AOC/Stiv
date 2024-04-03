@@ -20,7 +20,7 @@ namespace Commponents
             onDamage?.Invoke();
             if (health <= 0)
             {
-                GetComponent<SkilletController>()._agent.SetDestination(Vector3.zero);
+                GetComponent<MobController>()._agent.SetDestination(Vector3.zero);
                 onDie?.Invoke();
                
                 return;
