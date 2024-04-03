@@ -13,10 +13,10 @@ public class ReloadGame : MonoBehaviour
     private void Start()
     {
         savePoint = FindAnyObjectByType<SavePoint>();
-        
+
 
         if (StaticValue.Heart <= 0)
-            StaticValue.Heart = 3;
+            StaticValue.Heart = PlayerPrefs.GetInt("Heart",2);
     }
     void OnTriggerEnter(Collider other)
     {

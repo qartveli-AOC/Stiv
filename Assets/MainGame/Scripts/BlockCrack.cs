@@ -23,9 +23,9 @@ public class BlockCrack : MonoBehaviour
     
     private void Start()
     {
-        
-        mineAnimation = transform.GetChild(0).GetComponent<Animator>();
-        
+      
+
+        mineAnimation = transform.GetChild(0).GetComponent<Animator>();        
         mainCamera = transform.GetChild(2).GetComponent<Camera>();
     }
 
