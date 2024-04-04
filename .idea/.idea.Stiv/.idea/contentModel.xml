@@ -223,6 +223,9 @@
             <e p="ShowHeart.cs" t="Include" />
             <e p="StaticValue.cs" t="Include" />
             <e p="TrapTimer.cs" t="Include" />
+            <e p="UI" t="Include">
+              <e p="CurrencyExchanger.cs" t="Include" />
+            </e>
             <e p="UpgradeInShop.cs" t="Include" />
           </e>
           <e p="Textures" t="Include">

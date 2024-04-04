@@ -7,8 +7,24 @@ using UnityEngine.Events;
 public class ChestScript : MonoBehaviour
 {
     [SerializeField] private Res chestRes;
-
     public UnityEvent ResTake;
+    
+    private Animator _animator;
+    private AudioSource _audio;
+    
+    private static readonly int Open = Animator.StringToHash("Open");
+
+    private void Start()
+    {
+        Initialization();
+    }
+
+    private void Initialization()
+    {
+        _animator = GetComponent<Animator>();
+        _audio = GetComponent<AudioSource>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         TakeResurses();
@@ -18,45 +34,53 @@ public class ChestScript : MonoBehaviour
 
     private void TakeResurses()
     {
-        switch (chestRes)
+        if (StaticValue.CHEmerald> 0 ||StaticValue.CHCoal> 0 ||StaticValue.CHDiamond> 0 ||
+            StaticValue.CHRedStone> 0 ||StaticValue.CHGold> 0 ||StaticValue.CHIron> 0 ||StaticValue.CHBread> 0)
         {
-            case Res.Bread:
-                StaticValue.Bread += StaticValue.CHBread;
-                StaticValue.CHBread = 0;
-                PlayerPrefs.SetInt("CHBread", 0);
-                break;
-            case Res.Coal:
-                StaticValue.Coal += StaticValue.CHCoal;
-                StaticValue.CHCoal = 0;
-                PlayerPrefs.SetInt("CHCoal", 0);
-                break;
-            case Res.RedStone:
-                StaticValue.RedStone += StaticValue.CHRedStone;
-                StaticValue.CHRedStone = 0;
-                PlayerPrefs.SetInt("CHRedStone", 0);
-                break;
-            case Res.Iron:
-                StaticValue.Iron += StaticValue.CHIron;
-                StaticValue.CHIron = 0;
-                PlayerPrefs.SetInt("CHIron", 0);
-                break;
-            case Res.Gold:
-                StaticValue.Gold += StaticValue.CHGold;
-                StaticValue.CHGold = 0;
-                PlayerPrefs.SetInt("CHGold", 0);
-                break;
-            case Res.Emerald:
-                StaticValue.Emerald += StaticValue.CHEmerald;
-                StaticValue.CHEmerald = 0;
-                PlayerPrefs.SetInt("CHEmerald", 0);
-                break;
-            case Res.Diamond:
-                StaticValue.Diamond += StaticValue.CHDiamond;
-                StaticValue.CHDiamond = 0;
-                PlayerPrefs.SetInt("CHDiamond", 0);
-                break;
+            _animator.SetTrigger(Open);
+            _audio.Play();
+            
+            switch (chestRes)
+            {
+                case Res.Bread:
+                    StaticValue.Bread += StaticValue.CHBread;
+                    StaticValue.CHBread = 0;
+                    PlayerPrefs.SetInt("CHBread", 0);
+                    break;
+                case Res.Coal:
+                    StaticValue.Coal += StaticValue.CHCoal;
+                    StaticValue.CHCoal = 0;
+                    PlayerPrefs.SetInt("CHCoal", 0);
+                    break;
+                case Res.RedStone:
+                    StaticValue.RedStone += StaticValue.CHRedStone;
+                    StaticValue.CHRedStone = 0;
+                    PlayerPrefs.SetInt("CHRedStone", 0);
+                    break;
+                case Res.Iron:
+                    StaticValue.Iron += StaticValue.CHIron;
+                    StaticValue.CHIron = 0;
+                    PlayerPrefs.SetInt("CHIron", 0);
+                    break;
+                case Res.Gold:
+                    StaticValue.Gold += StaticValue.CHGold;
+                    StaticValue.CHGold = 0;
+                    PlayerPrefs.SetInt("CHGold", 0);
+                    break;
+                case Res.Emerald:
+                    StaticValue.Emerald += StaticValue.CHEmerald;
+                    StaticValue.CHEmerald = 0;
+                    PlayerPrefs.SetInt("CHEmerald", 0);
+                    break;
+                case Res.Diamond:
+                    StaticValue.Diamond += StaticValue.CHDiamond;
+                    StaticValue.CHDiamond = 0;
+                    PlayerPrefs.SetInt("CHDiamond", 0);
+                    break;
 
+            }
         }
+    
 
     }
 
