@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Models/chest.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Models/chest.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Gold.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Gold.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Iron.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Iron.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/ChestScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/ChestScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Textures/48-483788_minecraft-forums-minecraft-texture-pack-sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Textures/48-483788_minecraft-forums-minecraft-texture-pack-sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Lobby.unity" afterDir="false" />
-    </list>
+    <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
