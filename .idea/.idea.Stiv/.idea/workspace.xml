@@ -20,20 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Portal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 10.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 8.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 9.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/GoHome.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/GoHome.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Textures/AnimatorState.preset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Textures/AnimatorState.preset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 4.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +46,7 @@
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/44C555C8-E770-4B01-B377-8D8DB4AE9028/e2/3caf54c9/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/OnTriggerComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -76,8 +68,8 @@
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/StaticValue.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/GoHome.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" />
       </list>
     </option>
   </component>
