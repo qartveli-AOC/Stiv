@@ -19,7 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="" />
+    <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Coal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Coal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/ChestScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/ChestScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/InMiningBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/InMiningBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Textures/Crack.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Textures/Crack.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Lobby.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,11 +42,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/gfgf.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/TNTTrap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/44C555C8-E770-4B01-B377-8D8DB4AE9028/e2/3caf54c9/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/44C555C8-E770-4B01-B377-8D8DB4AE9028/56/198c4025/AnimatorStateInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/ArrowController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/Test.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/44C555C8-E770-4B01-B377-8D8DB4AE9028/e2/3caf54c9/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/OnTriggerComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/DisableObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/UI/CurrencyExchanger.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -64,8 +73,10 @@
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/GoHome.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/ChestScript.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/CurrencyExchanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/ChestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/DisableObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/InMiningBlock.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +128,7 @@
       <workItem from="1711958546716" duration="12907000" />
       <workItem from="1712064985540" duration="7065000" />
       <workItem from="1712124168624" duration="1800000" />
+      <workItem from="1712313240466" duration="3125000" />
     </task>
     <servers />
   </component>

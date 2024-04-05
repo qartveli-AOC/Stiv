@@ -39,7 +39,10 @@ EditorBuildSettings:
     path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 10.unity
     guid: 365d811668050bd4da4f73f8774eb96b
   - enabled: 1
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission Varint.unity
-    guid: da3f18e780ee1694b91a910ab6dfae99
+    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 11.unity
+    guid: 249851a0ba3921a4d94fb63486e26b6a
+  - enabled: 1
+    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 12.unity
+    guid: de3e7a8fae88ee545bcdc39533ac1296
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 4d99a1ce4ec8114489a5bd69da2a9fb3, type: 2}

@@ -193,6 +193,7 @@
             <e p="ChestScript.cs" t="Include" />
             <e p="Commponents" t="Include">
               <e p="DestroyComponent.cs" t="Include" />
+              <e p="DisableObject.cs" t="Include" />
               <e p="HealthComponent.cs" t="Include" />
               <e p="OnCollisionComponent.cs" t="Include" />
               <e p="OnTriggerComponent.cs" t="Include" />
