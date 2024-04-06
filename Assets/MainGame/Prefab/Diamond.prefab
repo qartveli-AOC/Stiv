@@ -131,6 +131,15 @@ MonoBehaviour:
   timeNeed: 0
   kesRes: 
   crackAnimator: {fileID: 0}
+  EnableTime: 2
+  blocks:
+  - {fileID: 360195830568188793}
+  - {fileID: 9109255705351386915}
+  - {fileID: 7803858071438863698}
+  - {fileID: 7778765839086373475}
+  - {fileID: 3392663045195880093}
+  - {fileID: 8478542593021375893}
+  - {fileID: 2942263351225017684}
 --- !u!1 &1990046412422494820
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,6 +150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2653417257668616867}
   - component: {fileID: 1714445150125907648}
+  - component: {fileID: 360195830568188793}
   m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10
   m_TagString: Untagged
@@ -215,6 +225,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &360195830568188793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990046412422494820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2597942864647859181
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,6 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1688556387290125378}
   - component: {fileID: 3898845574694435209}
+  - component: {fileID: 7803858071438863698}
   m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10 (3)
   m_TagString: Untagged
@@ -299,6 +322,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7803858071438863698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2597942864647859181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2788463329922108926
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,6 +344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 253927207822111334}
   - component: {fileID: 1112115588478689554}
+  - component: {fileID: 3392663045195880093}
   m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_12
   m_TagString: Untagged
@@ -383,6 +419,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3392663045195880093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2788463329922108926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5324785151403976088
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,6 +441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8329686173754678586}
   - component: {fileID: 2871519766822357189}
+  - component: {fileID: 7778765839086373475}
   m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10 (1)
   m_TagString: Untagged
@@ -467,6 +516,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7778765839086373475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5324785151403976088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7125430764872926402
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 799502939221781330}
   - component: {fileID: 525054558999713897}
+  - component: {fileID: 9109255705351386915}
   m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10 (2)
   m_TagString: Untagged
@@ -551,6 +613,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &9109255705351386915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125430764872926402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8848830917552228843
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,6 +635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7570687273099984183}
   - component: {fileID: 2488850514274735984}
+  - component: {fileID: 8478542593021375893}
   m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_11
   m_TagString: Untagged
@@ -635,6 +710,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8478542593021375893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848830917552228843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8476300158710856066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -718,10 +805,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3442086941827254968, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2942263351225017684}
   m_SourcePrefab: {fileID: 100100000, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
 --- !u!4 &5315335500165096684 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
   m_PrefabInstance: {fileID: 8476300158710856066}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6513719930168537914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3442086941827254968, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+  m_PrefabInstance: {fileID: 8476300158710856066}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2942263351225017684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6513719930168537914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

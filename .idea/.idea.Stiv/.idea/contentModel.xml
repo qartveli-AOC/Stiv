@@ -193,6 +193,7 @@
             <e p="ChestScript.cs" t="Include" />
             <e p="Commponents" t="Include">
               <e p="DestroyComponent.cs" t="Include" />
+              <e p="DisableObject.cs" t="Include" />
               <e p="HealthComponent.cs" t="Include" />
               <e p="OnCollisionComponent.cs" t="Include" />
               <e p="OnTriggerComponent.cs" t="Include" />
@@ -223,6 +224,9 @@
             <e p="ShowHeart.cs" t="Include" />
             <e p="StaticValue.cs" t="Include" />
             <e p="TrapTimer.cs" t="Include" />
+            <e p="UI" t="Include">
+              <e p="CurrencyExchanger.cs" t="Include" />
+            </e>
             <e p="UpgradeInShop.cs" t="Include" />
           </e>
           <e p="Textures" t="Include">

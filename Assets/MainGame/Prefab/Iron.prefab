@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 300166099349308034}
   - component: {fileID: 1255952251795753506}
-  m_Layer: 0
+  - component: {fileID: 1143861690840902842}
+  m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,6 +85,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1143861690840902842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144633048160375366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1647850880431528915
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,7 +109,8 @@ GameObject:
   - component: {fileID: 5474171020113285669}
   - component: {fileID: 3033801611764206937}
   - component: {fileID: 8505152542557302258}
-  m_Layer: 0
+  - component: {fileID: 672492480334856832}
+  m_Layer: 7
   m_Name: Iron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,6 +136,7 @@ Transform:
   - {fileID: 300166099349308034}
   - {fileID: 2331840541099782381}
   - {fileID: 2526110216589282775}
+  - {fileID: 1721150477085712884}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5474171020113285669
@@ -195,6 +210,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &672492480334856832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647850880431528915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0af0398754e5e64d9e96f47f17c3bd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resNum: 1
+  chooseRes: 3
+  xTimeMining: 1
+  timeNeed: 0
+  kesRes: 
+  crackAnimator: {fileID: 0}
+  EnableTime: 3
+  blocks:
+  - {fileID: 3217414764433496451}
+  - {fileID: 7429475783142643740}
+  - {fileID: 127997987192477447}
+  - {fileID: 1143861690840902842}
+  - {fileID: 1055676047559104441}
+  - {fileID: 6163640017661352391}
+  - {fileID: 3032145943787706767}
 --- !u!1 &2307899501535682219
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,7 +247,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2526110216589282775}
   - component: {fileID: 3577497883752395591}
-  m_Layer: 0
+  - component: {fileID: 6163640017661352391}
+  m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,6 +322,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6163640017661352391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2307899501535682219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2310748110571528247
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,7 +344,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6683538814701181363}
   - component: {fileID: 4008141163505130810}
-  m_Layer: 0
+  - component: {fileID: 3217414764433496451}
+  m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -363,6 +419,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3217414764433496451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2310748110571528247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3303611355719912463
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,7 +441,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2075762962610255876}
   - component: {fileID: 4841515774754093359}
-  m_Layer: 0
+  - component: {fileID: 7429475783142643740}
+  m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -447,6 +516,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7429475783142643740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3303611355719912463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8086011469466633549
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,7 +538,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4655321522766347519}
   - component: {fileID: 5012064856630655743}
-  m_Layer: 0
+  - component: {fileID: 127997987192477447}
+  m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,6 +613,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &127997987192477447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8086011469466633549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8675596493901280279
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,7 +635,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2331840541099782381}
   - component: {fileID: 4783367012635989539}
-  m_Layer: 0
+  - component: {fileID: 1055676047559104441}
+  m_Layer: 7
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,3 +710,125 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1055676047559104441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8675596493901280279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &3134718994257362074
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1402177434903584959}
+    m_Modifications:
+    - target: {fileID: 3112178735121356277, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442086941827254968, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Name
+      value: Crack
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442086941827254968, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3761262406771834503, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967272484353847629, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357330966121675741, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703480705215279987, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6730367423832899415, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3442086941827254968, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3032145943787706767}
+  m_SourcePrefab: {fileID: 100100000, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+--- !u!1 &307508694264772130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3442086941827254968, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+  m_PrefabInstance: {fileID: 3134718994257362074}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3032145943787706767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307508694264772130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c990553df6382d6429627d651bc43841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1721150477085712884 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+  m_PrefabInstance: {fileID: 3134718994257362074}
+  m_PrefabAsset: {fileID: 0}

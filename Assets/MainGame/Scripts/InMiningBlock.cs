@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 
@@ -14,7 +15,8 @@ public class InMiningBlock : MonoBehaviour
     [HideInInspector] public float timeNeed;
     [HideInInspector] public string kesRes;
     [HideInInspector] public Animator crackAnimator;
-    
+    [SerializeField] private float EnableTime = 2;
+    public DisableObject[] blocks;
    
     
 
@@ -35,8 +37,13 @@ public class InMiningBlock : MonoBehaviour
     public void DestroyBlock()
     {
         GiveResurses();
-        gameObject.SetActive(false);
+        foreach (var block in blocks)
+        {
+            block.DisableItem();
+        }
 
+        gameObject.GetComponent<BoxCollider>().enabled = false;
+        StartCoroutine(SpawnBlock());
     }
     
     private void GiveResurses()
@@ -75,6 +82,19 @@ public class InMiningBlock : MonoBehaviour
         }
 
     }
+
+    private IEnumerator SpawnBlock()
+    {
+        yield return new WaitForSeconds(EnableTime);
+        foreach (var block in blocks)
+        {
+            block.EnableItem();
+        }
+
+        gameObject.GetComponent<BoxCollider>().enabled = true;
+        
+    }
+    
     
 }
 public enum Res
