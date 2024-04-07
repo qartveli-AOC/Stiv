@@ -38,7 +38,7 @@ public class ChestScript : MonoBehaviour
             switch (chestRes)
             {
                 case Res.Bread:
-                    if (StaticValue.CHBread> 0)
+                    if (StaticValue.CHBread > 0)
                     {
                         StaticValue.Bread += StaticValue.CHBread;
                         StaticValue.CHBread = 0;
@@ -49,7 +49,7 @@ public class ChestScript : MonoBehaviour
                     }
                     break;
                 case Res.Coal:
-                    if (StaticValue.CHCoal> 0)
+                    if (StaticValue.CHCoal > 0)
                     {
                         StaticValue.Coal += StaticValue.CHCoal;
                         StaticValue.CHCoal = 0;
@@ -60,7 +60,7 @@ public class ChestScript : MonoBehaviour
                    
                     break;
                 case Res.RedStone:
-                    if (StaticValue.CHRedStone> 0)
+                    if (StaticValue.CHRedStone > 0)
                     {
                         StaticValue.RedStone += StaticValue.CHRedStone;
                         StaticValue.CHRedStone = 0;
@@ -71,7 +71,7 @@ public class ChestScript : MonoBehaviour
                    
                     break;
                 case Res.Iron:
-                    if (StaticValue.CHIron> 0)
+                    if (StaticValue.CHIron > 0)
                     {
                         StaticValue.Iron += StaticValue.CHIron;
                         StaticValue.CHIron = 0;
@@ -82,7 +82,7 @@ public class ChestScript : MonoBehaviour
                    
                     break;
                 case Res.Gold:
-                    if (StaticValue.CHGold> 0)
+                    if (StaticValue.CHGold > 0)
                     {
                         StaticValue.Gold += StaticValue.CHGold;
                         StaticValue.CHGold = 0;
@@ -94,7 +94,7 @@ public class ChestScript : MonoBehaviour
                    
                     break;
                 case Res.Emerald:
-                    if (StaticValue.CHEmerald> 0)
+                    if (StaticValue.CHEmerald > 0)
                     {
                         StaticValue.Emerald += StaticValue.CHEmerald;
                         StaticValue.CHEmerald = 0;
@@ -105,7 +105,7 @@ public class ChestScript : MonoBehaviour
                    
                     break;
                 case Res.Diamond:
-                    if (StaticValue.CHDiamond> 0)
+                    if (StaticValue.CHDiamond > 0)
                     {
                         StaticValue.Diamond += StaticValue.CHDiamond;
                         StaticValue.CHDiamond = 0;

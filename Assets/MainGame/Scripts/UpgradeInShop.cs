@@ -20,10 +20,11 @@ public class UpgradeInShop : MonoBehaviour
         nowUpdate = PlayerPrefs.GetInt(keyButton,0);
         if (nowUpdate > 0)
         price = price*(priceUpperX * nowUpdate);
-        Debug.Log(keyButton+" now "+ nowUpdate);
+        Debug.Log(keyButton+" now "+ nowUpdate);        
+        imgMax = transform.GetChild(1).GetComponent<Image>();
+        if (nowUpdate >= maxUpdate)
+            imgMax.enabled = true;
 
-        //if (nowUpdate >= maxUpdate)
-           // imgMax.enabled = true;
         priceTxt = transform.GetChild(0).GetChild(1).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>();
         priceTxt.text = price.ToString(); 
     }

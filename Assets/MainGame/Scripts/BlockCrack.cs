@@ -74,6 +74,7 @@ public class BlockCrack : MonoBehaviour
 
                 if(firstBlock.kesRes!=secondBlock.kesRes)
                 {
+                    startTime = 0;
                     firstBlock.crackAnimator.SetBool("isCrack", false);
                     mineAnimation.SetBool("isMining", false);
                     firstBlock = hit.transform.GetComponent<InMiningBlock>();
@@ -84,7 +85,8 @@ public class BlockCrack : MonoBehaviour
             
             if (Input.GetMouseButton(0)) 
             {
-                    startTime += Time.deltaTime;
+                
+                    startTime += Time.deltaTime;                                 
                     Debug.Log(startTime);
                     mineAnimation.SetBool("isMining", true);
                     firstBlock.crackAnimator.SetBool("isCrack", true);
@@ -110,8 +112,10 @@ public class BlockCrack : MonoBehaviour
 
         }
         else 
-        {           
-            if(firstBlock != null)
+        {
+            startTime = 0;
+
+            if (firstBlock != null)
                 firstBlock.crackAnimator.SetBool("isCrack", false);
                 mineAnimation.SetBool("isMining", false);
         }
