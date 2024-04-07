@@ -197,6 +197,7 @@
               <e p="HealthComponent.cs" t="Include" />
               <e p="OnCollisionComponent.cs" t="Include" />
               <e p="OnTriggerComponent.cs" t="Include" />
+              <e p="TeleporterComponent.cs" t="Include" />
             </e>
             <e p="Controller" t="Include">
               <e p="EnemyController" t="Include">
@@ -226,6 +227,7 @@
             <e p="TrapTimer.cs" t="Include" />
             <e p="UI" t="Include">
               <e p="CurrencyExchanger.cs" t="Include" />
+              <e p="RewardManager.cs" t="Include" />
             </e>
             <e p="UpgradeInShop.cs" t="Include" />
           </e>
@@ -255,7 +257,11 @@
               <e p="Readme.cs" t="Include" />
             </e>
           </e>
-          <e p="Scenes" t="Include" />
+          <e p="Scenes" t="Include">
+            <e p="Mission 12" t="Include" />
+            <e p="Mission 13" t="Include" />
+            <e p="Mission 14" t="Include" />
+          </e>
         </e>
         <e p="PACKAGES" t="Include">
           <e p="TRAPS AND OBSTACLES" t="Include">

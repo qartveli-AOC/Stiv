@@ -44,5 +44,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 12.unity
     guid: de3e7a8fae88ee545bcdc39533ac1296
+  - enabled: 1
+    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 13.unity
+    guid: db2310b86b9f94d439287e203e4b260f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 4d99a1ce4ec8114489a5bd69da2a9fb3, type: 2}
