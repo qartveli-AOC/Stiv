@@ -917,9 +917,7 @@ PrefabInstance:
       addedObject: {fileID: 2857305788158408843}
     - targetCorrespondingSourceObject: {fileID: 1509776982933878188, guid: 6a7f80d3d32e97340b5c6955138f4d38, type: 3}
       insertIndex: -1
-
       addedObject: {fileID: 1387429940059733083}
-
     - targetCorrespondingSourceObject: {fileID: 8008528638258285857, guid: 6a7f80d3d32e97340b5c6955138f4d38, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2318011312535472948}
@@ -1049,9 +1047,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-
 --- !u!114 &1387429940059733083
-
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1071,9 +1067,7 @@ MonoBehaviour:
     m_Bits: 2048
   mineAnimation: {fileID: 0}
   mainCamera: {fileID: 0}
-
   maxDistance: 4
-
 --- !u!4 &433493754352438433 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1334645965942651757, guid: 6a7f80d3d32e97340b5c6955138f4d38, type: 3}
