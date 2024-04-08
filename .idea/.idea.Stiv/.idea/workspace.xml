@@ -20,25 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Models/Player 1 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Models/Player 1 Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Drop trapper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Drop trapper.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Levels Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Levels Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/MagniCube (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/MagniCube (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/SlimeBlend.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/SlimeBlend.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Teleport.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Teleport.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/bark of tree .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/bark of tree .prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/tree leaves .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/tree leaves .prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Textures/48-483788_minecraft-forums-minecraft-texture-pack-sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Textures/48-483788_minecraft-forums-minecraft-texture-pack-sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 12.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 13.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 13.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 14.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 14.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 15.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 15.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 16.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 16.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 17.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 17.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 10.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 11.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 12.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 13.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 13.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 14.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 14.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 15.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 15.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 16.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 16.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 17.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 17.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 18.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 18.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 19.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 19.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 20.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 20.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 7.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 9.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +54,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/DropTrapperController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/gfgf.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/TNTTrap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/44C555C8-E770-4B01-B377-8D8DB4AE9028/e2/3caf54c9/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/44C555C8-E770-4B01-B377-8D8DB4AE9028/56/198c4025/AnimatorStateInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/ArrowController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/OnTriggerComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/TeleporterComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/DisableObject.cs" root0="FORCE_HIGHLIGHTING" />
@@ -80,7 +81,6 @@
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/Test.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/TNTTrap.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/SavePoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/ReloadGame.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/AirTrapController.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/GoHome.cs" />
@@ -93,6 +93,7 @@
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/ReloadGame.cs" />
       </list>
     </option>
   </component>
@@ -147,6 +148,7 @@
       <workItem from="1712313240466" duration="3125000" />
       <workItem from="1712477153670" duration="8986000" />
       <workItem from="1712572257763" duration="1169000" />
+      <workItem from="1712594784877" duration="1516000" />
     </task>
     <servers />
   </component>
