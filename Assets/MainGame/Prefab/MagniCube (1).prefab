@@ -800,7 +800,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5023372907573021545
 Transform:
   m_ObjectHideFlags: 0
@@ -904,7 +904,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d4ca1f36c8e23e44e900606822417247, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 44eb426c95c9d034d980456ba9f57893, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1003,9 +1003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _agent: {fileID: 0}
-  points:
-  - {fileID: 0}
-  - {fileID: 0}
+  points: []
 --- !u!65 &6611706450013337114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1059,5 +1057,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.5, y: 2.5, z: 2.5}
+  m_Size: {x: 3, y: 3.39, z: 2.5}
   m_Center: {x: -0.22384644, y: 0.30779266, z: 0.139822}

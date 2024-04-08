@@ -27,6 +27,7 @@ public class BlockCrack : MonoBehaviour
 
         mineAnimation = transform.GetChild(0).GetComponent<Animator>();        
         mainCamera = transform.GetChild(2).GetComponent<Camera>();
+        
     }
 
     // Update is called once per frame
@@ -47,18 +48,25 @@ public class BlockCrack : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                hit.transform.GetComponent<HealthComponent>().ModifyHealth(1);
+                hit.transform.GetComponent<HealthComponent>().ModifyHealth(1+StaticValue.Attack);
                 
+                StartCoroutine(EndAnimation());
                 Debug.Log("IaPOPAL PO SKILLETON ");   
             }
-           
+            
+        }else
+            mineAnimation.SetBool("ifAttack", false);
+
+
+        IEnumerator EndAnimation()
+        {
+            mineAnimation.SetBool("ifAttack", true);
+            yield return new WaitForSeconds(0.217f);
+            mineAnimation.SetBool("ifAttack", false);
         }
-        
-        
-        
-        
-        
-        
+
+
+
         if (Physics.Raycast(rayOrigin, out hit, maxDistance, layerMask))
         {          
             secondBlock = hit.transform.GetComponent<InMiningBlock>();
@@ -128,20 +136,4 @@ public class BlockCrack : MonoBehaviour
    
 
 
-    /*IEnumerator Icrack()
-    {
-       
-        mineAnimation.SetBool("isMinig",true);
-     
-        if(pastTime > timeNeed)
-        {
-            yield return null;
-            hit.rigidbody.gameObject.SetActive(false);
-            GiveResurses();
-        }else
-            mineAnimation.SetBool("isMinig", false);
-
-
-    }*/
-    
 }

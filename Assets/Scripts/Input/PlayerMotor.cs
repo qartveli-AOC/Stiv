@@ -29,7 +29,8 @@ public class PlayerMotor : MonoBehaviour
         
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            Speed = 8;        
+            Speed = 8;
+            Speed += StaticValue.RunSpeed;
             
              float Camspeed = Mathf.Lerp(cam.fieldOfView,80,Time.deltaTime*2);
              cam.fieldOfView = Camspeed;

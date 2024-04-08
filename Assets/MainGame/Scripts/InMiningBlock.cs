@@ -22,7 +22,8 @@ public class InMiningBlock : MonoBehaviour
 
     void Start()
     {
-        
+        resNum += StaticValue.MoreRes;
+        xTimeMining += StaticValue.PicleSpeed;
 
         thisTime = 1 * xTimeMining ;
         timeNeed = 1 / xTimeMining ;
