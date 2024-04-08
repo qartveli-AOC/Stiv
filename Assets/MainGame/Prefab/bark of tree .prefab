@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 730283411971861336}
   - component: {fileID: 2949914774820437600}
   - component: {fileID: 2847875868317889536}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 3419286261803352194}
   - component: {fileID: 5648741478412670612}
   - component: {fileID: 8284809560723828011}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 622423253638800545}
   - component: {fileID: 3267940521719769342}
   - component: {fileID: 779869460236139187}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +302,7 @@ GameObject:
   - component: {fileID: 2587881613354320375}
   - component: {fileID: 7914170677887677924}
   - component: {fileID: 1752937061672903804}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 2699039984533790920}
   - component: {fileID: 5439409958253161756}
   - component: {fileID: 3442072047258117978}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: 'bark of tree '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -510,7 +510,7 @@ GameObject:
   - component: {fileID: 8849926594463632558}
   - component: {fileID: 7122659966339899600}
   - component: {fileID: 954408743353281607}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -607,7 +607,7 @@ GameObject:
   - component: {fileID: 7654089888615526186}
   - component: {fileID: 6641245669677228388}
   - component: {fileID: 4896336263012343688}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_10 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

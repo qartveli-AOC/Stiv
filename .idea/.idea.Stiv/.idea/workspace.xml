@@ -22,21 +22,23 @@
     <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/CheckPok1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/CheckPok1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Models/Player 1 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Models/Player 1 Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Drop trapper.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Drop trapper.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Levels Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Levels Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Points.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Points.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/MagniCube (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/MagniCube (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/SlimeBlend.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/SlimeBlend.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Teleport.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Teleport.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/bark of tree .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/bark of tree .prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/tree leaves .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/tree leaves .prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MainGame/Textures/48-483788_minecraft-forums-minecraft-texture-pack-sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Textures/48-483788_minecraft-forums-minecraft-texture-pack-sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Lobby.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 10.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 11.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 12.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 13.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 13.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 14.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 14.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 15.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 15.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 16.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 16.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 17.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 17.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 8.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 9.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +82,8 @@
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/SavePoint.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/ReloadGame.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/AirTrapController.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/GoHome.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/CurrencyExchanger.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/ChestScript.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/DisableObject.cs" />
@@ -91,6 +91,8 @@
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/TeleporterComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/StaticValue.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" />
       </list>
     </option>
   </component>
@@ -143,7 +145,8 @@
       <workItem from="1712064985540" duration="7065000" />
       <workItem from="1712124168624" duration="1800000" />
       <workItem from="1712313240466" duration="3125000" />
-      <workItem from="1712477153670" duration="8690000" />
+      <workItem from="1712477153670" duration="8986000" />
+      <workItem from="1712572257763" duration="1169000" />
     </task>
     <servers />
   </component>

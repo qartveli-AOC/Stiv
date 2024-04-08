@@ -261,6 +261,8 @@
             <e p="Mission 12" t="Include" />
             <e p="Mission 13" t="Include" />
             <e p="Mission 14" t="Include" />
+            <e p="Mission 18" t="Include" />
+            <e p="Mission 19" t="Include" />
           </e>
         </e>
         <e p="PACKAGES" t="Include">
@@ -361,6 +363,23 @@
             <e p="Prefabs" t="Include" />
             <e p="Scenes" t="Include" />
             <e p="Textures" t="Include" />
+          </e>
+        </e>
+        <e p="Scene Teleportation Kit" t="Include">
+          <e p="Art" t="Include">
+            <e p="Animations" t="Include" />
+            <e p="Materials" t="Include" />
+            <e p="Meshes" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Documentation" t="Include" />
+          <e p="Prefabs" t="Include">
+            <e p="ground" t="Include" />
+            <e p="platform" t="Include" />
+            <e p="platforms" t="Include" />
+            <e p="player" t="Include" />
+            <e p="portal" t="Include" />
+            <e p="vfx" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">
