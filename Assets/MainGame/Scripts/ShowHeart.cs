@@ -8,8 +8,11 @@ public class ShowHeart : MonoBehaviour
     [SerializeField] Image[] heartImg;
     void Start()
     {
-        StaticValue.Heart = PlayerPrefs.GetInt("Heart", 2);
-        Debug.Log(StaticValue.Heart + " heart");
+        ShowHeartUpdate();
+    }
+    public void ShowHeartUpdate()
+    {
+        StaticValue.Heart = PlayerPrefs.GetInt("Heart", 2);       
         heartImg = new Image[transform.childCount];
         for (int i = 0; i < transform.childCount; i++)
         {

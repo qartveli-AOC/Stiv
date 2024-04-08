@@ -11,8 +11,12 @@ public class StaticValue
 
     public static int Heart;    
     public static int EarnPower;
-    public static float Attack;
+    public static int MoreRes;
+    public static int Attack;
+    public static float PicleSpeed;
+    
     public static float RunSpeed;
+    
 
 
     public static int Emerald;
