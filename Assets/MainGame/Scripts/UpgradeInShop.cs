@@ -61,6 +61,8 @@ public class UpgradeInShop : MonoBehaviour
             PlayerPrefs.SetInt(keyButton,nowUpdate);
             _audioSource.PlayOneShot(buy);
             StaticValue.Emerald -= price;
+            if (nowUpdate >= maxUpdate)
+                imgMax.enabled = true;
         }
         else
             _audioSource.PlayOneShot(cantBuy);

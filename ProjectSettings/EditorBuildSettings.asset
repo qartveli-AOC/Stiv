@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Lobby.unity
+    path: Assets/MainGame/Scenes/Lobby.unity
     guid: 30d91d35edefeba4bb5dfd406e433e9b
   - enabled: 1
     path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 1.unity
@@ -18,31 +18,31 @@ EditorBuildSettings:
     path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 3.unity
     guid: bb5255eedf6b77249b9deef59ceefc6b
   - enabled: 1
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 4.unity
+    path: Assets/MainGame/Scenes/Mission 4.unity
     guid: 2189d491024f13a47a8b2ce382dd3de0
   - enabled: 1
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 5.unity
+    path: Assets/MainGame/Scenes/Mission 5.unity
     guid: d4558880833d1494b8da590b2a3f93b4
   - enabled: 1
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 6.unity
+    path: Assets/MainGame/Scenes/Mission 6.unity
     guid: 4f5c725e597b78a43bb650e9b089c098
   - enabled: 1
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 7.unity
+    path: Assets/MainGame/Scenes/Mission 7.unity
     guid: c0599fa7524b7f24da7f294ced5dd590
   - enabled: 1
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 8.unity
+    path: Assets/MainGame/Scenes/Mission 8.unity
     guid: 71f941a4b8e97cf4093f198a572ad62a
   - enabled: 1
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 9.unity
+    path: Assets/MainGame/Scenes/Mission 9.unity
     guid: fe3cb7fba6c85d7428d43f2a6faaa215
   - enabled: 1
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 10.unity
+    path: Assets/MainGame/Scenes/Mission 10.unity
     guid: 365d811668050bd4da4f73f8774eb96b
   - enabled: 1
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 11.unity
+    path: Assets/MainGame/Scenes/Mission 11.unity
     guid: 249851a0ba3921a4d94fb63486e26b6a
   - enabled: 1
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 12.unity
+    path: Assets/MainGame/Scenes/Mission 12.unity
     guid: de3e7a8fae88ee545bcdc39533ac1296
   - enabled: 1
     path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 13.unity

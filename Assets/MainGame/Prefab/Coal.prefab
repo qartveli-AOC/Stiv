@@ -325,6 +325,7 @@ MonoBehaviour:
   timeNeed: 0
   kesRes: 
   crackAnimator: {fileID: 0}
+  EnableTime: 2
   blocks:
   - {fileID: 4996061635709903830}
   - {fileID: 8351486872998962861}
