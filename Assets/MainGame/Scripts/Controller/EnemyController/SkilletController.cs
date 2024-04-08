@@ -51,7 +51,7 @@ namespace Controller
 
         private IEnumerator PatrolState()
         {
-            while (true)
+            while (_agent != null && _agent.isActiveAndEnabled)
             {
                 if (Vector3.Distance(_target.position, _agent.transform.position) > 15)
                 {
@@ -81,7 +81,7 @@ namespace Controller
 
         private IEnumerator MovePlayerState()
         {
-            while (true)
+            while (_agent != null && _agent.isActiveAndEnabled)
             {
                 _animator.SetBool(Move, true);
                 if (_agent != null)
