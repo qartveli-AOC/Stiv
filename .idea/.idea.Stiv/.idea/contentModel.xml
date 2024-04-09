@@ -41,129 +41,6 @@
             </e>
           </e>
         </e>
-        <e p="KUBIKOS - World" t="Include">
-          <e p="Demo" t="Include">
-            <e p="Scenes" t="Include">
-              <e p="Demo1" t="Include" />
-              <e p="Demo3" t="Include" />
-              <e p="Demo4" t="Include" />
-              <e p="Demo5" t="Include" />
-              <e p="Demo6" t="Include" />
-              <e p="Demo7" t="Include" />
-              <e p="Demo8" t="Include" />
-              <e p="Test" t="Include" />
-            </e>
-          </e>
-          <e p="LWRP Support" t="Include">
-            <e p="Materials LWRP" t="Include">
-              <e p="CubeAtlas" t="Include" />
-              <e p="Particle" t="Include" />
-              <e p="Planes" t="Include" />
-            </e>
-            <e p="Prefabs LWRP" t="Include">
-              <e p="Cameras" t="Include" />
-              <e p="Clouds" t="Include" />
-              <e p="Crystals" t="Include" />
-              <e p="Cubes" t="Include" />
-              <e p="CubesAtlas" t="Include" />
-              <e p="Items" t="Include" />
-              <e p="Particles" t="Include" />
-              <e p="Planes" t="Include" />
-              <e p="Rocks" t="Include">
-                <e p="Blue" t="Include" />
-                <e p="Brown" t="Include" />
-                <e p="Green" t="Include" />
-              </e>
-              <e p="TreesAndPlants" t="Include" />
-            </e>
-            <e p="Shaders LWRP" t="Include">
-              <e p="Cloud_Shader.shader" t="Include" />
-              <e p="CustomStandardSpecular.shader" t="Include" />
-              <e p="Ice_Shader.shader" t="Include" />
-              <e p="Lava_Shader.shader" t="Include" />
-              <e p="Magma_Shader.shader" t="Include" />
-              <e p="PlaneLava_Shader.shader" t="Include" />
-              <e p="PlaneWater_Shader.shader" t="Include" />
-              <e p="Surface_Shader.shader" t="Include" />
-              <e p="Vertical Fog.shader" t="Include" />
-              <e p="Water_Shader.shader" t="Include" />
-              <e p="WaterGreen_Shader.shader" t="Include" />
-            </e>
-          </e>
-          <e p="Materials" t="Include">
-            <e p="CubeAtlas" t="Include" />
-            <e p="Particle" t="Include" />
-            <e p="Planes" t="Include" />
-          </e>
-          <e p="Models" t="Include">
-            <e p="Clouds" t="Include">
-              <e p="Materials" t="Include" />
-            </e>
-            <e p="CubesAtlas" t="Include">
-              <e p="Materials" t="Include" />
-            </e>
-            <e p="Items" t="Include">
-              <e p="Materials" t="Include" />
-            </e>
-            <e p="Materials" t="Include" />
-            <e p="Particle" t="Include">
-              <e p="Materials" t="Include" />
-            </e>
-            <e p="Rocks" t="Include">
-              <e p="Materials" t="Include" />
-            </e>
-            <e p="TreesAndPlants" t="Include">
-              <e p="Materials" t="Include" />
-            </e>
-          </e>
-          <e p="Prefabs" t="Include">
-            <e p="Cameras" t="Include" />
-            <e p="Clouds" t="Include" />
-            <e p="Crystals" t="Include" />
-            <e p="Cubes" t="Include" />
-            <e p="CubesAtlas" t="Include" />
-            <e p="Items" t="Include" />
-            <e p="Particles" t="Include" />
-            <e p="Planes" t="Include" />
-            <e p="Post" t="Include" />
-            <e p="Rocks" t="Include">
-              <e p="Blue" t="Include" />
-              <e p="Brown" t="Include" />
-              <e p="Green" t="Include" />
-            </e>
-            <e p="TreesAndPlants" t="Include" />
-          </e>
-          <e p="Read Me" t="Include" />
-          <e p="Scripts" t="Include">
-            <e p="EnableCameraDepthInForward.cs" t="Include" />
-          </e>
-          <e p="Shaders" t="Include">
-            <e p="Cloud_Shader.shader" t="Include" />
-            <e p="CustomStandardSpecular.shader" t="Include" />
-            <e p="Fog_Shader.shader" t="Include" />
-            <e p="Ice_Shader.shader" t="Include" />
-            <e p="Lava_Shader.shader" t="Include" />
-            <e p="Magma_Shader.shader" t="Include" />
-            <e p="PlaneLava_Shader.shader" t="Include" />
-            <e p="PlaneWater_Shader.shader" t="Include" />
-            <e p="Sun_Shader.shader" t="Include" />
-            <e p="Surface_Shader.shader" t="Include" />
-            <e p="Water_Shader.shader" t="Include" />
-            <e p="WaterGreen_Shader.shader" t="Include" />
-          </e>
-          <e p="Textures" t="Include">
-            <e p="Crystal" t="Include">
-              <e p="Materials" t="Include" />
-            </e>
-            <e p="CubesAtlas" t="Include" />
-            <e p="Magma" t="Include" />
-            <e p="Particle" t="Include" />
-            <e p="Planes" t="Include">
-              <e p="Materials" t="Include" />
-            </e>
-            <e p="Rocks" t="Include" />
-          </e>
-        </e>
         <e p="MainGame" t="Include">
           <e p="Animation" t="Include">
             <e p="EnemyAnimation" t="Include" />
@@ -184,7 +61,7 @@
             <e p="Resources" t="Include" />
           </e>
           <e p="Scenes" t="Include">
-            <e p="Mission 1" t="Include" />
+            <e p="Mission 25" t="Include" />
             <e p="Mission 4" t="Include" />
           </e>
           <e p="Scripts" t="Include">
@@ -237,34 +114,6 @@
           <e p="villager voice" t="Include" />
         </e>
         <e p="Materials" t="Include" />
-        <e p="Mini Simple Characters Skeleton Demo" t="Include">
-          <e p="Materials" t="Include">
-            <e p="Material Variations" t="Include" />
-          </e>
-          <e p="Models" t="Include">
-            <e p="Animations" t="Include" />
-          </e>
-          <e p="Prefabs" t="Include">
-            <e p="Characters" t="Include" />
-            <e p="Props" t="Include" />
-          </e>
-          <e p="Readme" t="Include">
-            <e p="Icons" t="Include" />
-            <e p="Scripts" t="Include">
-              <e p="Editor" t="Include">
-                <e p="ReadmeEditor.cs" t="Include" />
-              </e>
-              <e p="Readme.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Scenes" t="Include">
-            <e p="Mission 12" t="Include" />
-            <e p="Mission 13" t="Include" />
-            <e p="Mission 14" t="Include" />
-            <e p="Mission 18" t="Include" />
-            <e p="Mission 19" t="Include" />
-          </e>
-        </e>
         <e p="PACKAGES" t="Include">
           <e p="TRAPS AND OBSTACLES" t="Include">
             <e p="Traps-Obstacles" t="Include">
@@ -402,18 +251,6 @@
             <e p="PlayerInteract.cs" t="Include" />
           </e>
           <e p="PlayerShooter.cs" t="Include" />
-        </e>
-        <e p="Selcuk Gerceker" t="Include">
-          <e p="Toon Environments - World Creator Pack Lite" t="Include">
-            <e p="Materials" t="Include" />
-            <e p="Models" t="Include">
-              <e p="Props" t="Include" />
-            </e>
-            <e p="Prefabs" t="Include">
-              <e p="Props" t="Include" />
-            </e>
-            <e p="Textures" t="Include" />
-          </e>
         </e>
         <e p="Standard Assets" t="Include">
           <e p="Character Controllers" t="Include">

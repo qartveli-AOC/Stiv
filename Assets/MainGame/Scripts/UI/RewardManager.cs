@@ -1,5 +1,8 @@
+using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using YG;
 
 namespace UI
@@ -7,13 +10,16 @@ namespace UI
     public class RewardManager : MonoBehaviour
     {
         [SerializeField] private TMP_Text emeraldTakeText;
+        [SerializeField] private GameObject noRewardButton;
         [SerializeField] private int GiveEmerald = 10;
         private int _takeEmerald;
+        
         private void Start()
         {
           
             _takeEmerald = GiveEmerald + StaticValue.EarnPower;
-            emeraldTakeText.text = _takeEmerald.ToString();
+            StartCoroutine(ShowRewardButton());
+
         }
 
         public void TakeEmerald()
@@ -32,5 +38,15 @@ namespace UI
             StaticValue.Emerald += _takeEmerald * 2;
             PlayerPrefs.SetInt("Emerald", StaticValue.Emerald);
         }
+
+        public IEnumerator ShowRewardButton()
+        {
+            yield return new WaitForSeconds(1f);
+            noRewardButton.SetActive(true);
+            emeraldTakeText.text = _takeEmerald.ToString();
+        }
+
+      
+        
     }
 }

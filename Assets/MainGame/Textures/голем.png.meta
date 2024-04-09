@@ -53,7 +53,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -132,14 +132,65 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline: []
-    physicsShape: []
+    outline:
+    - - {x: 0, y: 453}
+      - {x: -116.46857, y: 437.5644}
+      - {x: -225, y: 392.3095}
+      - {x: -318.19806, y: 320.31937}
+      - {x: -389.71146, y: 226.49998}
+      - {x: -434.66663, y: 117.24504}
+      - {x: -450, y: 0.000034200548}
+      - {x: -434.66666, y: -117.24497}
+      - {x: -389.7115, y: -226.49994}
+      - {x: -318.19812, y: -320.31927}
+      - {x: -225.0001, y: -392.30945}
+      - {x: -116.46872, y: -437.56436}
+      - {x: -0.00017523646, y: -453}
+      - {x: 116.46838, y: -437.56445}
+      - {x: 224.99982, y: -392.3096}
+      - {x: 318.19788, y: -320.31955}
+      - {x: 389.71133, y: -226.50014}
+      - {x: 434.66656, y: -117.2452}
+      - {x: 450, y: -0.00021060527}
+      - {x: 434.66666, y: 117.2448}
+      - {x: 389.71155, y: 226.49977}
+      - {x: 318.19827, y: 320.31918}
+      - {x: 225.00027, y: 392.30936}
+      - {x: 116.468895, y: 437.5643}
+    physicsShape:
+    - - {x: 217, y: -388}
+      - {x: 295, y: -384}
+      - {x: 297, y: -382}
+      - {x: 298, y: -301}
+      - {x: 297, y: 238}
+      - {x: 108, y: 245}
+      - {x: 120, y: 450}
+      - {x: -59, y: 447}
+      - {x: -74, y: 244}
+      - {x: -274.04535, y: 284.26666}
+      - {x: -237, y: -453}
+      - {x: 182, y: -453}
+      - {x: 196, y: -40}
+      - {x: 202, y: -359}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
