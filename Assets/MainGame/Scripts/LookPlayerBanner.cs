@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class LookPlayerBanner : MonoBehaviour
 {
-    [SerializeField] Transform player;
+    [SerializeField] GameObject player;
+    private void Start()
+    {
+        player = GameObject.FindWithTag("Player");
+    }
     private void Update()
     {
-        transform.LookAt(player);
+        transform.LookAt(player.transform);
     }
 
 }

@@ -29,7 +29,8 @@ public class PlayerMotor : MonoBehaviour
         
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            Speed = 8;        
+            Speed = 8;
+            Speed += StaticValue.RunSpeed;
             
              float Camspeed = Mathf.Lerp(cam.fieldOfView,80,Time.deltaTime*2);
              cam.fieldOfView = Camspeed;
@@ -71,12 +72,13 @@ public class PlayerMotor : MonoBehaviour
         }
         controller.Move(playerVelocity * Time.deltaTime);
     }
-    public void Jump()
+    public void Jump(float jumpHight)
     {
         
         if (isGrounded)  
         {
-            playerVelocity.y = Mathf.Sqrt(JumpHight * -3.0f * Gravity);
+            playerVelocity.y = Mathf.Sqrt(jumpHight * -3.0f * Gravity);
+            
         }
     }
 }

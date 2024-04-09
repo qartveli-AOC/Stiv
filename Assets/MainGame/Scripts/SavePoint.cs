@@ -18,11 +18,11 @@ public class SavePoint : MonoBehaviour
         if (StaticValue.Heart <= 0)
             Reset2();
 
-                for (int i = 0; i < values.Length; i++)
-            {
-                values[i] = PlayerPrefs.GetFloat("value" + i);
-                Debug.Log(values[i] + "  value" + i);
-            }
+        for (int i = 0; i < values.Length; i++)
+        {
+            values[i] = PlayerPrefs.GetFloat("value" + i);
+            Debug.Log(values[i] + "  value" + i);
+        }
         
         playerController = FindAnyObjectByType<CharacterController>();
         Vector3 temp = new Vector3(values[0], values[1], values[2]);
@@ -42,7 +42,7 @@ public class SavePoint : MonoBehaviour
 
             for (int i = 0; i < values.Length; i++)
                 PlayerPrefs.SetFloat("value"+i, values[i]);
-                gameObject.SetActive(false);
+            gameObject.SetActive(false);
         }
     [ContextMenu("Reset2")]
     public void Reset2()

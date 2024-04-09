@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -17,35 +18,58 @@ public class GameManger : MonoBehaviour
     [SerializeField] private TextMeshProUGUI coal_txt;
     [SerializeField] private TextMeshProUGUI redStone_txt;
     [SerializeField] private TextMeshProUGUI baseLevel_txt;
+    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject tp;
+    [SerializeField] private GameObject levelCanvas;
+    [SerializeField] private GameObject shopCanvas;
     void Start()
     {
+        tp = GameObject.Find("TP");
+        player = GameObject.FindWithTag("Player");
+        levelCanvas = GameObject.Find("Levels Canvas");
+        shopCanvas = GameObject.Find("Shop UI");
+        levelCanvas.SetActive(false);
+        shopCanvas.SetActive(false);
         LoadResurses();
         GiveText();
         MenuBackground.SetActive(false);
+       
+
+
     }
     private void Update()
     {
-        if(Input.GetKey(KeyCode.Tab))
-        { 
-            MenuBackground.SetActive(true); 
-            audioSource.mute=true;
-            Time.timeScale = 0.000001f; 
 
-            if(Input.GetKey(KeyCode.Tab))
-            {
-                TurnGame();
-            }
+        if(player.activeInHierarchy)
+        {
+            Cursor.visible = false;
+        }
+        else
+        {
+            Cursor.visible = true;
+        }
+        if(Input.GetKey(KeyCode.Tab))
+        {
+            Debug.Log("TAB");
+            player.SetActive(false);
+            MenuBackground.SetActive(true);           
+            Time.timeScale = 0.000001f;
+            levelCanvas.SetActive(false);
+           shopCanvas.SetActive(false);
+
         }
         
-        Debug.Log( "  Coal  "+ StaticValue.Coal );
+        
     }
     [ContextMenu("GiveGold")]
     public void GiveGold()
     {
-        StaticValue.Gold = StaticValue.Gold + 1;
+        StaticValue.Gold = StaticValue.Iron + 1;
+        
         PlayerPrefs.SetInt("Gold", StaticValue.Gold);
+        PlayerPrefs.SetInt("BaseLevel", 1);
     }
-
+   
     public void SavePrice()
     {
         PlayerPrefs.SetInt("Emerald", StaticValue.Emerald);
@@ -57,13 +81,15 @@ public class GameManger : MonoBehaviour
         PlayerPrefs.SetInt("Gold", StaticValue.Gold);
         PlayerPrefs.SetInt("BaseLevel", StaticValue.BaseLevel);
         GiveText();
+        
     }
 
-
+    [ContextMenu("TurnGame")]
     public void TurnGame()
     {
-        audioSource.mute = false;
+            
         Time.timeScale = 1f;
+        player.SetActive(true);
     }
 
     public void LoadResurses()
@@ -75,7 +101,21 @@ public class GameManger : MonoBehaviour
         StaticValue.Bread = PlayerPrefs.GetInt("Bread", StaticValue.Bread);
         StaticValue.Iron = PlayerPrefs.GetInt("Iron", StaticValue.Iron);
         StaticValue.Gold = PlayerPrefs.GetInt("Gold", StaticValue.Gold);
-        StaticValue.BaseLevel = PlayerPrefs.GetInt("BaseLevel", StaticValue.BaseLevel);
+        StaticValue.BaseLevel = PlayerPrefs.GetInt("BaseLevel", 1);
+
+        StaticValue.MoreRes = PlayerPrefs.GetInt("MoreRes",0);
+        StaticValue.PicleSpeed = PlayerPrefs.GetFloat("PicleSpeed",0);
+        StaticValue.RunSpeed = PlayerPrefs.GetFloat("StaticValue.RunSpeed",0);
+        StaticValue.Attack = PlayerPrefs.GetInt("Attack", 0);
+
+
+        StaticValue.CHEmerald = PlayerPrefs.GetInt("CHEmerald", StaticValue.CHEmerald);
+        StaticValue.CHCoal = PlayerPrefs.GetInt("CHCoal", StaticValue.CHCoal);
+        StaticValue.CHRedStone = PlayerPrefs.GetInt("CHRedStone", StaticValue.CHRedStone);
+        StaticValue.CHDiamond = PlayerPrefs.GetInt("CHDiamond", StaticValue.CHDiamond);
+        StaticValue.CHBread = PlayerPrefs.GetInt("CHBread", StaticValue.CHBread);
+        StaticValue.CHIron = PlayerPrefs.GetInt("CHIron", StaticValue.CHIron);
+        StaticValue.CHGold = PlayerPrefs.GetInt("CHGold", StaticValue.CHGold);
 
     }
     public void GiveText()
@@ -88,6 +128,10 @@ public class GameManger : MonoBehaviour
         iron_txt.text = StaticValue.Iron.ToString();
         gold_txt.text = StaticValue.Gold.ToString();
         baseLevel_txt.text = StaticValue.BaseLevel.ToString();
+    }
+    public void TpPlayer()
+    {
+        player.transform.position = tp.transform.position;
     }
 }
 

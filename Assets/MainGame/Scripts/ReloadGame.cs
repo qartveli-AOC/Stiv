@@ -13,10 +13,13 @@ public class ReloadGame : MonoBehaviour
     private void Start()
     {
         savePoint = FindAnyObjectByType<SavePoint>();
-        
+        StaticValue.Heart = PlayerPrefs.GetInt("Heart", 2);
+        StaticValue.thisHeart = PlayerPrefs.GetInt("thisHeart", StaticValue.Heart);
 
-        if (StaticValue.Heart < 0)
-            StaticValue.Heart = 2;
+        if (StaticValue.thisHeart <= 0)
+            StaticValue.thisHeart = PlayerPrefs.GetInt("Heart",2);
+
+       
     }
     void OnTriggerEnter(Collider other)
     {
@@ -33,10 +36,11 @@ public class ReloadGame : MonoBehaviour
     IEnumerator timer()
     {
         handPosition.gameObject.SetActive(false);
-        animator.SetBool("bb", true);
+        animator.SetBool("isDeath", true);
         yield return new WaitForSeconds(0.44f);
-        animator.SetBool("bb", false);
-        StaticValue.Heart--;        
+        animator.SetBool("isDeath", false);      
+        StaticValue.thisHeart--;  
+        PlayerPrefs.SetInt("thisHeart",StaticValue.thisHeart);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
        
     }
