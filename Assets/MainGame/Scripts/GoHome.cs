@@ -20,13 +20,20 @@ public class GoHome : MonoBehaviour
     }
     public void NextLevel()
     {
+        ResetHeart();
         int currentScene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(++currentScene);
     }
     public void GoBase()
     {
-        SceneManager.LoadScene(home);
-        Debug.Log("reload");
+        ResetHeart();
+        SceneManager.LoadScene(home);       
+    }
+
+    public void ResetHeart()
+    {
+        StaticValue.Heart = PlayerPrefs.GetInt("Heart", 2);
+        StaticValue.thisHeart = StaticValue.Heart;
     }
 
 }

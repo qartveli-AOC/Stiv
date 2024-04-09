@@ -1056,11 +1056,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 288
-        y: 482
-        width: 47
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 480
+        width: 48
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1425,6 +1425,27 @@ TextureImporter:
       bones: []
       spriteID: bdcac2b9ae4a55c4488ba925e3a0145b
       internalID: -80853540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 48
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8822c26892521340929335f67d7b7e9
+      internalID: 1820978534
       vertices: []
       indices: 
       edges: []
