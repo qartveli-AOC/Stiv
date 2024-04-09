@@ -49,6 +49,7 @@ public class UpgradeInShop : MonoBehaviour
         PlayerPrefs.SetInt("BaseLevel", 1);
         PlayerPrefs.SetFloat("PicleSpeed", 0);
         PlayerPrefs.SetFloat("MoreRes", 0);
+        PlayerPrefs.SetInt("thisHeart", 2);
     }
 
     public void Heart()
@@ -57,6 +58,7 @@ public class UpgradeInShop : MonoBehaviour
         {
             StaticValue.Heart += 1;
             PlayerPrefs.SetInt("Heart", StaticValue.Heart);
+            PlayerPrefs.SetInt("thisHeart",StaticValue.Heart);
             nowUpdate++;
             PlayerPrefs.SetInt(keyButton,nowUpdate);
             _audioSource.PlayOneShot(buy);

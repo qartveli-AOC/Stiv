@@ -32,8 +32,7 @@ public class GoHome : MonoBehaviour
 
     public void ResetHeart()
     {
-        StaticValue.Heart = PlayerPrefs.GetInt("Heart", 2);
-        StaticValue.thisHeart = StaticValue.Heart;
+        PlayerPrefs.SetInt("thisHeart", StaticValue.Heart);       
     }
 
 }
