@@ -863,7 +863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f96d45fec716443ac38727357462c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 20
   onDamage:
     m_PersistentCalls:
       m_Calls:
@@ -904,7 +904,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b5a5a64eb62a8b94992b76b02e12299d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
