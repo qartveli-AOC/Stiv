@@ -4,6 +4,8 @@ using System.Collections;
 using System;
 using System.Linq;
 using UnityEngine.Events;
+using YG;
+
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -18,7 +20,9 @@ public class FortuneWheelManager : MonoBehaviour
 	public Text DeltaCoinsText; 				// Pop-up text with wasted or rewarded coins amount
 	public Text CurrentCoinsText; 				// Pop-up text with wasted or rewarded coins amount
 	public GameObject NextTurnTimerWrapper;
-	public Text NextFreeTurnTimerText;			// Text element that contains remaining time to next free turn
+	public Text NextFreeTurnTimerText;		
+	
+	// Text element that contains remaining time to next free turn
 
 	[Header("How much currency one paid turn costs")]
 	public int TurnCost = 300;					// How much coins user waste when turn whe wheel
@@ -31,7 +35,7 @@ public class FortuneWheelManager : MonoBehaviour
 	private float _finalAngle;					// The final angle is needed to calculate the reward
 	private float _startAngle;    				// The first time start angle equals 0 but the next time it equals the last final angle
 	private float _currentLerpRotationTime;		// Needed for spinning animation
-	private int _currentCoinsAmount = 1000;		// Started coins amount. In your project it should be picked up from CoinsManager or from PlayerPrefs and so on
+	private int _currentCoinsAmount = StaticValue.Emerald;		// Started coins amount. In your project it should be picked up from CoinsManager or from PlayerPrefs and so on
 	private int _previousCoinsAmount;
 
 	// Here you can set time between two free turns
@@ -65,11 +69,13 @@ public class FortuneWheelManager : MonoBehaviour
 
 	private FortuneWheelSector _finalSector;
 
+	public UnityEvent GiveAward;
+
 	private void Awake ()
 	{
 		_previousCoinsAmount = _currentCoinsAmount;
 		// Show our current coins amount
-		CurrentCoinsText.text = _currentCoinsAmount.ToString ();
+		CurrentCoinsText.text = StaticValue.Emerald.ToString ();
 
 		// Show sector reward value in text object if it's set
 		foreach (var sector in Sectors)
@@ -161,7 +167,11 @@ public class FortuneWheelManager : MonoBehaviour
 
 	public void TurnWheelButtonClick ()
 	{
-		if (_isFreeTurnAvailable) {
+
+
+        YandexGame.RewVideoShow(index);
+
+        if (_isFreeTurnAvailable) {
 			TurnWheelForFree ();
 		} else {
 			// If we have enabled paid turns
@@ -172,7 +182,8 @@ public class FortuneWheelManager : MonoBehaviour
 				}
 			}
 		}
-	}
+        
+    }
 
 	public void SetNextFreeTime() {
 		// Reset the remaining time values
@@ -254,18 +265,25 @@ public class FortuneWheelManager : MonoBehaviour
 			Circle.transform.eulerAngles = new Vector3 (0, 0, angle);	
 		}
 	}
+    private int index = 1;
+    
 
-	/// <summary>
-	/// Sample callback for giving reward (in editor each sector have Reward Callback field pointed to this method)
-	/// </summary>
-	/// <param name="awardCoins">Coins for user</param>
-	public void RewardCoins (int awardCoins)
+    /// <summary>
+    /// Sample callback for giving reward (in editor each sector have Reward Callback field pointed to this method)
+    /// </summary>
+    /// <param name="awardCoins">Coins for user</param>
+    public void RewardCoins (int awardCoins)
 	{
-		_currentCoinsAmount += awardCoins;
-		// Show animated delta coins
-		DeltaCoinsText.text = String.Format("+{0}", awardCoins);
-		DeltaCoinsText.gameObject.SetActive (true);
-		StartCoroutine (UpdateCoinsAmount ());
+        if (index == 1)
+        {
+            StaticValue.Emerald += awardCoins;
+			GiveAward?.Invoke();
+            // Show animated delta coins
+            DeltaCoinsText.text = String.Format("+{0}", awardCoins);
+            DeltaCoinsText.gameObject.SetActive(true);
+            StartCoroutine(UpdateCoinsAmount());
+        }
+        
 	}
 
 	// Hide coins delta text after animation
@@ -290,7 +308,7 @@ public class FortuneWheelManager : MonoBehaviour
 
 		_previousCoinsAmount = _currentCoinsAmount;
 
-		CurrentCoinsText.text = _currentCoinsAmount.ToString ();
+		CurrentCoinsText.text = StaticValue.Emerald.ToString ();
 	}
 
 	// Change remaining time to next free turn every 1 second
@@ -307,7 +325,7 @@ public class FortuneWheelManager : MonoBehaviour
 
 		// If the timer has ended
 		if (_timerRemainingHours <= 0 && _timerRemainingMinutes <= 0 && _timerRemainingSeconds <= 0) {
-			NextFreeTurnTimerText.text = "Ready!";
+			NextFreeTurnTimerText.text = " ";
 			// Now we have a free turn
 			_isFreeTurnAvailable = true;
 		} else {

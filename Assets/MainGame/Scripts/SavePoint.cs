@@ -14,14 +14,13 @@ public class SavePoint : MonoBehaviour
        
     private void Start()
     {
-        Debug.Log("  heart left  " + StaticValue.Heart);
-        if (StaticValue.Heart <= 0)
-            Reset2();
+        
+       
 
         for (int i = 0; i < values.Length; i++)
         {
             values[i] = PlayerPrefs.GetFloat("value" + i);
-            Debug.Log(values[i] + "  value" + i);
+           
         }
         
         playerController = FindAnyObjectByType<CharacterController>();

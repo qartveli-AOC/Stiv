@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 3.unity
     guid: bb5255eedf6b77249b9deef59ceefc6b
   - enabled: 1
+    path: Assets/MainGame/Scenes/Lobby.unity
+    guid: 30d91d35edefeba4bb5dfd406e433e9b
+  - enabled: 1
     path: Assets/MainGame/Scenes/Mission 4.unity
     guid: 2189d491024f13a47a8b2ce382dd3de0
   - enabled: 1
@@ -41,29 +44,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainGame/Scenes/Mission 12.unity
     guid: de3e7a8fae88ee545bcdc39533ac1296
-  - enabled: 1
-    path: Assets/MainGame/Scenes/Mission 13.unity
-    guid: 35be7bc82a1bd7f4088e04bf6f376325
-  - enabled: 1
-    path: Assets/MainGame/Scenes/Mission 14.unity
-    guid: e921002b760b66847b50faab23b0a0f0
-  - enabled: 1
-    path: Assets/MainGame/Scenes/Mission 15.unity
-    guid: 6eb616289d7bb2b4fa6c366f4659bd9d
-  - enabled: 1
-    path: Assets/MainGame/Scenes/Mission 16.unity
-    guid: 4e655795602eb98439ff9afee712a3e0
-  - enabled: 1
-    path: Assets/MainGame/Scenes/Mission 17.unity
-    guid: 51728f93713ca2440882302eb115fe67
-  - enabled: 1
-    path: Assets/MainGame/Scenes/Mission 18.unity
-    guid: dbd55e76b0917dd478c220ba3f34522b
-  - enabled: 1
-    path: Assets/MainGame/Scenes/Mission 19.unity
-    guid: ef1b9bae78a0f714f829123f3c140fb3
-  - enabled: 1
-    path: Assets/MainGame/Scenes/Mission 20.unity
-    guid: 9f4f048e691009e41b613ad54acfce73
-  m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: 4d99a1ce4ec8114489a5bd69da2a9fb3, type: 2}
+  m_configObjects: {}
