@@ -65,6 +65,7 @@
             <e p="Resources" t="Include" />
           </e>
           <e p="Scenes" t="Include">
+            <e p="Lobby" t="Include" />
             <e p="Mission 27" t="Include" />
             <e p="Mission 4" t="Include" />
           </e>
@@ -219,6 +220,7 @@
             <e p="Textures" t="Include" />
           </e>
         </e>
+        <e p="Resset.cs" t="Include" />
         <e p="Scene Teleportation Kit" t="Include">
           <e p="Art" t="Include">
             <e p="Animations" t="Include" />

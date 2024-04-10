@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Levels Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Levels Canvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +136,7 @@
       <workItem from="1712572257763" duration="1169000" />
       <workItem from="1712594784877" duration="1516000" />
       <workItem from="1712652383159" duration="1601000" />
-      <workItem from="1712738457843" duration="3709000" />
+      <workItem from="1712738457843" duration="4350000" />
     </task>
     <servers />
   </component>
