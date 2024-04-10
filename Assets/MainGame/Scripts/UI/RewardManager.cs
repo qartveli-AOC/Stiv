@@ -12,7 +12,7 @@ public class RewardManager : MonoBehaviour
         
     private void Start()
     {
-          
+        Cursor.visible = true;
         _takeEmerald = GiveEmerald + StaticValue.EarnPower;
         StartCoroutine(ShowRewardButton());
 

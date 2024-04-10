@@ -30,6 +30,8 @@ public class BlockCrack : MonoBehaviour
 
 
         Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
     }
 
 

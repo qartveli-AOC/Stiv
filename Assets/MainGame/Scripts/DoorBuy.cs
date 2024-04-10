@@ -29,6 +29,7 @@ public class DoorBuy : MonoBehaviour
      private TextMeshProUGUI  coal_txt;
      private TextMeshProUGUI  redStone_txt;   
      public TextMeshProUGUI  baseLevel_txt;
+    public MassiveObject massiveIMG;
 
     bool isWorkCorutine = false;
 
@@ -45,6 +46,7 @@ public class DoorBuy : MonoBehaviour
     
     private void Start()
     {
+        
         doorKey = gameObject.name;
         DoorActive = PlayerPrefs.GetInt(doorKey,1);
         if(DoorActive == 0)
@@ -53,13 +55,17 @@ public class DoorBuy : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-            openLevels?.Invoke();
-            FindText();
+        
+        openLevels?.Invoke();
+        massiveIMG = FindAnyObjectByType<MassiveObject>();
+        
+        FindText();
             keyCheckCoroutine = StartCoroutine(IKeyChecker());          
               
     }
     private void OnTriggerExit(Collider other)
     {
+            massiveIMG.TurnAll();
             if(baseLevelNeed <= StaticValue.BaseLevel)
             StopCoroutine(keyCheckCoroutine);            
             closeLevels?.Invoke(); 
@@ -120,41 +126,34 @@ public class DoorBuy : MonoBehaviour
 
     private void FindText()
     {
-        if(Emerald != 0)
-        {
+        
             emerald_txt = GameObject.FindWithTag("Emerald").GetComponent<TextMeshProUGUI>();
             emerald_txt.text = Emerald.ToString();
-        }            
-        if (Diamond != 0)
-        {
+                  
+     
             diamond_txt = GameObject.FindWithTag("Diamond").GetComponent<TextMeshProUGUI>();
             diamond_txt.text = Diamond.ToString();
-        }           
-        if (Gold != 0)
-        {
+                  
+        
             gold_txt = GameObject.FindWithTag("Gold").GetComponent<TextMeshProUGUI>();
             gold_txt.text = Gold.ToString();
-        }          
-        if (Iron != 0)
-        {
+                  
+        
             iron_txt = GameObject.FindWithTag("Iron").GetComponent<TextMeshProUGUI>();
             iron_txt.text = Iron.ToString();
-        }           
-        if (Bread != 0)
-        {
+                   
+        
             bread_txt = GameObject.FindWithTag("Bread").GetComponent<TextMeshProUGUI>();
             bread_txt.text = Bread.ToString();
-        }            
-        if (Coal != 0)
-        {
+                    
+        
             coal_txt = GameObject.FindWithTag("Coal").GetComponent<TextMeshProUGUI>();
             coal_txt.text = Coal.ToString();
-        }           
-        if (RedStone != 0)
-        {
+                
+        
             redStone_txt = GameObject.FindWithTag("RedStone").GetComponent<TextMeshProUGUI>();
             redStone_txt.text = RedStone.ToString();
-        }
+        
             baseLevel_txt = GameObject.FindWithTag("BaseLevel").GetComponent<TextMeshProUGUI>();
             baseLevel_txt.text = baseLevelNeed.ToString();
 

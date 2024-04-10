@@ -5,15 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 1.unity
-    guid: 8ec8181d004008d4d883261d70a9efd5
-  - enabled: 0
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 2.unity
-    guid: 20a2f3ad7142164499f2094aecb9e42e
-  - enabled: 0
-    path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 3.unity
-    guid: bb5255eedf6b77249b9deef59ceefc6b
   - enabled: 1
     path: Assets/MainGame/Scenes/Logo.unity
     guid: bbdd7f095d161c44587480f7b5153c23
