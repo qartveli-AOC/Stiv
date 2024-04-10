@@ -31,4 +31,9 @@ public class LevelsOpen : MonoBehaviour
             SceneManager.LoadScene(thisLevelNum);
         }
     }
+    [ContextMenu("ResetLevel")]
+    public void ResetLevels()
+    {
+        PlayerPrefs.SetInt("Level"+thisLevelNum, 0);
+    }
 }
