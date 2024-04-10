@@ -27,10 +27,12 @@ public class BlockCrack : MonoBehaviour
 
         mineAnimation = transform.GetChild(0).GetComponent<Animator>();        
         mainCamera = transform.GetChild(2).GetComponent<Camera>();
-        
+
+
+        Cursor.visible = false;
     }
 
-    // Update is called once per frame
+
     void Update()
     {
      
@@ -50,22 +52,15 @@ public class BlockCrack : MonoBehaviour
             {
                 hit.transform.GetComponent<HealthComponent>().ModifyHealth(1+StaticValue.Attack);
                 
-                StartCoroutine(EndAnimation());
+              
+                AttackAnimStart();
                 Debug.Log("IaPOPAL PO SKILLETON ");   
             }
             
-        }else
-            mineAnimation.SetBool("ifAttack", false);
-
-
-        IEnumerator EndAnimation()
-        {
-            mineAnimation.SetBool("ifAttack", true);
-            yield return new WaitForSeconds(0.217f);
-            mineAnimation.SetBool("ifAttack", false);
         }
 
-
+        
+        
 
         if (Physics.Raycast(rayOrigin, out hit, maxDistance, layerMask))
         {          
@@ -133,7 +128,11 @@ public class BlockCrack : MonoBehaviour
 
     }
 
-   
 
+    private void AttackAnimStart()
+    {
+        mineAnimation.SetTrigger("Attack");
+    }
+        
 
 }

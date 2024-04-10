@@ -11,7 +11,7 @@ namespace UI
         private int _takeEmerald;
         private void Start()
         {
-          
+            Cursor.visible = true;
             _takeEmerald = GiveEmerald + StaticValue.EarnPower;
             emeraldTakeText.text = _takeEmerald.ToString();
         }

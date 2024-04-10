@@ -483,7 +483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3819020153917895143}
   - component: {fileID: 2631483784501529839}
-  - component: {fileID: 1804385820933222877}
+  - component: {fileID: 7545420563443303732}
   - component: {fileID: 2431292701977083160}
   - component: {fileID: 5284641199725321444}
   - component: {fileID: 3752488474014739025}
@@ -535,7 +535,7 @@ NavMeshAgent:
   m_BaseOffset: 1.15
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &1804385820933222877
+--- !u!114 &7545420563443303732
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -544,9 +544,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 7740683075366372025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 213bee3cae16f254695df548a16e59d0, type: 3}
+  m_Script: {fileID: 11500000, guid: e82b0b643626a674ab5ffae96d01f1c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collider:
+  - {fileID: 7085103676023137677}
+  - {fileID: 4987264952477492992}
 --- !u!114 &2431292701977083160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -578,9 +581,9 @@ MonoBehaviour:
   onDie:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1804385820933222877}
-        m_TargetAssemblyTypeName: Commponents.DestroyComponent, Assembly-CSharp
-        m_MethodName: DestroyCurrentObj
+      - m_Target: {fileID: 7545420563443303732}
+        m_TargetAssemblyTypeName: DestroySlime, Assembly-CSharp
+        m_MethodName: DestroySlimeStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

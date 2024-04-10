@@ -20,29 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Lobby.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 10.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 11.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 12.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 13.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 13.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 14.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 14.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 15.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 15.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 16.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 16.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 17.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 17.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 18.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 18.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 19.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 19.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 20.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 20.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 21.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 21.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 22.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 22.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 8.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 9.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/ReloadGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/ReloadGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/gfgf.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/TNTTrap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/DestroySlime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/44C555C8-E770-4B01-B377-8D8DB4AE9028/e2/3caf54c9/StateMachineBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/44C555C8-E770-4B01-B377-8D8DB4AE9028/56/198c4025/AnimatorStateInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/ArrowController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -75,7 +57,6 @@
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/ArrowController.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/OnCollisionComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/OnTriggerComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/DestroyComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/DropTrapperController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Input/PlayerMotor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Input/PlayerInput.cs" />
@@ -92,11 +73,14 @@
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/DisableObject.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/InMiningBlock.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/TeleporterComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/StaticValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/ForLogo/NewScene.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/ReloadGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/DestroyComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/DestroySlime.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" />
       </list>
     </option>
   </component>
@@ -153,6 +137,7 @@
       <workItem from="1712572257763" duration="1169000" />
       <workItem from="1712594784877" duration="1516000" />
       <workItem from="1712652383159" duration="1601000" />
+      <workItem from="1712738457843" duration="3709000" />
     </task>
     <servers />
   </component>
