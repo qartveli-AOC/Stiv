@@ -1454,6 +1454,7 @@ TextureImporter:
       name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_31
       rect:
         serializedVersion: 2
+
         x: 192
         y: 432
         width: 47
@@ -1477,6 +1478,10 @@ TextureImporter:
         serializedVersion: 2
         x: 624
         y: 0
+
+        x: 48
+        y: 720
+
         width: 48
         height: 48
       alignment: 6
@@ -1486,8 +1491,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+
       spriteID: 4f87034c96d24074db75db2c1354eaac
       internalID: 423102898
+
+      spriteID: 9323ab132e26f6d4fb65c99c01c4533c
+      internalID: 1908143526
+
       vertices: []
       indices: 
       edges: []

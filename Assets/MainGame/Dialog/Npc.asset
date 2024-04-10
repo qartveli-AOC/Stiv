@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f4a308dae7ffd048a8b0eb8d5ae4a02, type: 3}
   m_Name: Npc
   m_EditorClassIdentifier: 
-  characterPhoto: {fileID: 21300000, guid: 49b5fe0d3f33fa14e892675b0e8e4f29, type: 3}
+  characterPhoto: {fileID: 21300000, guid: 36064a0353abd1f46adeb6ff0356e9a0, type: 3}
   characterName: 

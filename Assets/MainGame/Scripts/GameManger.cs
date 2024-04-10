@@ -22,12 +22,15 @@ public class GameManger : MonoBehaviour
     [SerializeField] private GameObject tp;
     [SerializeField] private GameObject levelCanvas;
     [SerializeField] private GameObject shopCanvas;
+    [SerializeField] private GameObject steaveCanvas;
     void Start()
     {
         tp = GameObject.Find("TP");
         player = GameObject.FindWithTag("Player");
         levelCanvas = GameObject.Find("Levels Canvas");
         shopCanvas = GameObject.Find("Shop UI");
+        steaveCanvas = GameObject.Find("FortuneWheel Window");
+        steaveCanvas.SetActive(false);
         levelCanvas.SetActive(false);
         shopCanvas.SetActive(false);
         LoadResurses();
@@ -116,6 +119,8 @@ public class GameManger : MonoBehaviour
         StaticValue.CHBread = PlayerPrefs.GetInt("CHBread", StaticValue.CHBread);
         StaticValue.CHIron = PlayerPrefs.GetInt("CHIron", StaticValue.CHIron);
         StaticValue.CHGold = PlayerPrefs.GetInt("CHGold", StaticValue.CHGold);
+
+        StaticValue.thisHeart = PlayerPrefs.GetInt("Heart", 2);
 
     }
     public void GiveText()
