@@ -93,13 +93,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4121874646928079562}
   - component: {fileID: 1168725821905858947}
-  - component: {fileID: 8767135851562953230}
   - component: {fileID: 236115803175500176}
   - component: {fileID: 5753106668432291814}
   - component: {fileID: 3131611858914212259}
   - component: {fileID: 4502178854659345086}
   - component: {fileID: 1553449562523022166}
   - component: {fileID: 8009146301686511680}
+  - component: {fileID: 725616126777983360}
   m_Layer: 11
   m_Name: SlimeBlend
   m_TagString: Untagged
@@ -145,18 +145,6 @@ NavMeshAgent:
   m_BaseOffset: 1.15
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &8767135851562953230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3451076839634775619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 213bee3cae16f254695df548a16e59d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &236115803175500176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,9 +176,9 @@ MonoBehaviour:
   onDie:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8767135851562953230}
-        m_TargetAssemblyTypeName: Commponents.DestroyComponent, Assembly-CSharp
-        m_MethodName: DestroyCurrentObj
+      - m_Target: {fileID: 725616126777983360}
+        m_TargetAssemblyTypeName: DestroySlime, Assembly-CSharp
+        m_MethodName: DestroySlimeStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -210,10 +198,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-
-  m_audioClip: {fileID: 8300000, guid: 44eb426c95c9d034d980456ba9f57893, type: 3}
-
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -369,6 +355,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.5, y: 3.77, z: 2.5}
   m_Center: {x: -0.0059452057, y: -0.0790838, z: -0.016741514}
+--- !u!114 &725616126777983360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3451076839634775619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82b0b643626a674ab5ffae96d01f1c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collider:
+  - {fileID: 4502178854659345086}
+  - {fileID: 8009146301686511680}
 --- !u!1 &3746071627908390804
 GameObject:
   m_ObjectHideFlags: 0

@@ -30,10 +30,13 @@ public class ReloadGame : MonoBehaviour
     IEnumerator timer()
     {
         handPosition.gameObject.SetActive(false);
+        Debug.Log("Dieing true");
         animator.SetBool("isDeath", true);
         yield return new WaitForSeconds(0.44f);
         animator.SetBool("isDeath", false);
+        Debug.Log("Dieing false");
         DamageHeart();
+      
         
        
     }
@@ -43,7 +46,9 @@ public class ReloadGame : MonoBehaviour
         if (StaticValue.thisHeart <= 0)
             savePoint.Reset2();
         PlayerPrefs.SetInt("thisHeart", StaticValue.thisHeart);
+        Debug.Log("Dieing Scene");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("Dieing after Scene");
     }
   
 }
