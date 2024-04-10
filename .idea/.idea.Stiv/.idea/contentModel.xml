@@ -65,6 +65,7 @@
             <e p="Resources" t="Include" />
           </e>
           <e p="Scenes" t="Include">
+            <e p="Mission 27" t="Include" />
             <e p="Mission 4" t="Include" />
           </e>
           <e p="Scripts" t="Include">

@@ -27,7 +27,9 @@ public class BlockCrack : MonoBehaviour
 
         mineAnimation = transform.GetChild(0).GetComponent<Animator>();        
         mainCamera = transform.GetChild(2).GetComponent<Camera>();
-        
+
+
+        Cursor.visible = false;
     }
 
 

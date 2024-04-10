@@ -22,14 +22,8 @@
     <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Animation/CameraMain.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Animation/CameraMain.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Animation/Hand.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Animation/Hand.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/NeedTake/SlimeBlend.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/NeedTake/SlimeBlend.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/MagniCube (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/MagniCube (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/SlimeBlend.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/SlimeBlend.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Mission 4.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/ReloadGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/ReloadGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,14 +73,14 @@
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/DisableObject.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/InMiningBlock.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/TeleporterComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/EnemyController/SkilletController.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/StaticValue.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/ForLogo/NewScene.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/ReloadGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/DestroyComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/DestroySlime.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/BlockCrack.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" />
       </list>
     </option>
   </component>
@@ -143,7 +137,7 @@
       <workItem from="1712572257763" duration="1169000" />
       <workItem from="1712594784877" duration="1516000" />
       <workItem from="1712652383159" duration="1601000" />
-      <workItem from="1712738457843" duration="3020000" />
+      <workItem from="1712738457843" duration="3709000" />
     </task>
     <servers />
   </component>
