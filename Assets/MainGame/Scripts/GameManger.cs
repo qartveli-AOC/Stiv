@@ -120,7 +120,7 @@ public class GameManger : MonoBehaviour
         StaticValue.CHIron = PlayerPrefs.GetInt("CHIron", StaticValue.CHIron);
         StaticValue.CHGold = PlayerPrefs.GetInt("CHGold", StaticValue.CHGold);
 
-        StaticValue.thisHeart = PlayerPrefs.GetInt("Heart", 2);
+        
 
     }
     public void GiveText()

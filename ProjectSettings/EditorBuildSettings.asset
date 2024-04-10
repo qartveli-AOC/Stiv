@@ -15,8 +15,20 @@ EditorBuildSettings:
     path: Assets/Mini Simple Characters Skeleton Demo/Scenes/Mission 3.unity
     guid: bb5255eedf6b77249b9deef59ceefc6b
   - enabled: 1
+    path: Assets/MainGame/Scenes/Logo.unity
+    guid: bbdd7f095d161c44587480f7b5153c23
+  - enabled: 1
     path: Assets/MainGame/Scenes/Lobby.unity
     guid: 30d91d35edefeba4bb5dfd406e433e9b
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 1.unity
+    guid: 78e35eb341d73c44e98a555f03d593b9
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 2.unity
+    guid: 40422ee75848a244ab21b61b7354a396
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 3.unity
+    guid: a25d968d30f347746a3286b9a5697063
   - enabled: 1
     path: Assets/MainGame/Scenes/Mission 4.unity
     guid: 2189d491024f13a47a8b2ce382dd3de0
@@ -44,4 +56,49 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainGame/Scenes/Mission 12.unity
     guid: de3e7a8fae88ee545bcdc39533ac1296
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 13.unity
+    guid: 35be7bc82a1bd7f4088e04bf6f376325
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 14.unity
+    guid: e921002b760b66847b50faab23b0a0f0
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 15.unity
+    guid: 6eb616289d7bb2b4fa6c366f4659bd9d
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 16.unity
+    guid: 4e655795602eb98439ff9afee712a3e0
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 17.unity
+    guid: 51728f93713ca2440882302eb115fe67
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 18.unity
+    guid: dbd55e76b0917dd478c220ba3f34522b
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 19.unity
+    guid: ef1b9bae78a0f714f829123f3c140fb3
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 20.unity
+    guid: 9f4f048e691009e41b613ad54acfce73
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 21.unity
+    guid: ed5671df2855d8b4e843d8e4f85dcf8a
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 22.unity
+    guid: 63e2ac1c64dd90e4f84546bac69ce5cc
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 23.unity
+    guid: 92508e46e4f22da42be421ef4ce3a46b
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 24.unity
+    guid: ebbeb3db12d6fa34b847025abb321601
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 25.unity
+    guid: 10fadf6857ee92a428b21758ef34a7fa
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 26.unity
+    guid: f9c33d6b292fb9a4a9144ab01f9e9a0c
+  - enabled: 1
+    path: Assets/MainGame/Scenes/Mission 27.unity
+    guid: ad80b7b75bc275d45b87d7f1f8219673
   m_configObjects: {}
