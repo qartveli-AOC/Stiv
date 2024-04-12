@@ -1,15 +1,28 @@
+using System;
 using UnityEngine;
 
 public class PlayerLook : MonoBehaviour
 {
     public Camera cam;
     private float xRotation = 0f;
-     static public float ForMenuSensty = 30;
-    private float xSensetivity = ForMenuSensty;
-    private float ySensetivity = ForMenuSensty;
+     
+    public float xSensetivity = 30;
+    public float ySensetivity = 30;
 
-    
-  public void LookStart(Vector2 value)
+    private void OnEnable()
+    {
+        xSensetivity = Sensety.slider.value;
+        ySensetivity =Sensety.slider.value;
+        Debug.LogError("PlayerLookStart" +"XSens YSens" +xSensetivity + "///" + ySensetivity );
+    }
+
+    private void Update()
+    {
+        Debug.LogError("PlayerLookUpdate" +"XSens YSens" +xSensetivity + "///" + ySensetivity );
+    }
+
+
+    public void LookStart(Vector2 value)
     {
       float mouseY = value.y;
       float mouseX = value.x;
@@ -21,4 +34,14 @@ public class PlayerLook : MonoBehaviour
 
         transform.Rotate(Vector3.up*(mouseX *  Time.deltaTime)*xSensetivity);
     }
+
+
+
+    public void SensitivityChanger(float sensitivity)
+    {
+        xSensetivity = sensitivity;
+        ySensetivity = sensitivity;
+        Debug.LogError("FAFAFAFAFAFAFAF");
+    }
+    
 }

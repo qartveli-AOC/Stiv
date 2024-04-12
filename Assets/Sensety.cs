@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,21 +6,32 @@ using UnityEngine.UI;
 
 public class Sensety : MonoBehaviour
 {
-   [SerializeField] Slider slider;
-    private void Start()
+  
+    public static Slider slider;
+    private void Awake()
     {
-        slider = GetComponent<Slider>();
-        slider.value = PlayerPrefs.GetFloat("ForMenuSensty", 25f);
-        PlayerLook.ForMenuSensty = slider.value;
-        slider.onValueChanged.AddListener(SensetyChange);
+        slider = transform.GetChild(0).GetChild(4).GetChild(3).GetChild(1).GetComponent<Slider>();
+        slider.minValue = 10;
+        slider.maxValue = 100;
+        
+        slider.value = PlayerPrefs.GetFloat("SensentivitySavere123", 45);
     }
-    public void saveSensety()
-    {
-        PlayerPrefs.SetFloat("ForMenuSensty", slider.value);
-    }
-    public void SensetyChange(float f)
-    {
+    
+    
 
-        PlayerLook.ForMenuSensty = slider.value;
+    private void OnEnable()
+    {
+      
+       
+        Debug.LogError("SensetyStart" +"slider.value" + slider.value  );
     }
+
+    public void SaverSlider()
+    {
+        PlayerPrefs.SetFloat("SensentivitySavere123", slider.value);
+        Debug.LogError("Sensetysave" +"slider.value" + slider.value  );
+    }
+
+    
+   
 }
