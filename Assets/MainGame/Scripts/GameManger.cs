@@ -23,6 +23,9 @@ public class GameManger : MonoBehaviour
     [SerializeField] private GameObject levelCanvas;
     [SerializeField] private GameObject shopCanvas;
     [SerializeField] private GameObject steaveCanvas;
+    
+    
+    
     void Start()
     {
         tp = GameObject.Find("TP");
@@ -36,20 +39,20 @@ public class GameManger : MonoBehaviour
         LoadResurses();
         GiveText();
         MenuBackground.SetActive(false);
-       
 
-
+        
     }
     private void Update()
     {
 
         if(player.activeInHierarchy)
         {
-            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
         }
         else
         {
             Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
         if(Input.GetKey(KeyCode.Tab))
         {
@@ -104,6 +107,7 @@ public class GameManger : MonoBehaviour
         StaticValue.Bread = PlayerPrefs.GetInt("Bread", StaticValue.Bread);
         StaticValue.Iron = PlayerPrefs.GetInt("Iron", StaticValue.Iron);
         StaticValue.Gold = PlayerPrefs.GetInt("Gold", StaticValue.Gold);
+        
         StaticValue.BaseLevel = PlayerPrefs.GetInt("BaseLevel", 1);
 
         StaticValue.MoreRes = PlayerPrefs.GetInt("MoreRes",0);
@@ -118,10 +122,14 @@ public class GameManger : MonoBehaviour
         StaticValue.CHDiamond = PlayerPrefs.GetInt("CHDiamond", StaticValue.CHDiamond);
         StaticValue.CHBread = PlayerPrefs.GetInt("CHBread", StaticValue.CHBread);
         StaticValue.CHIron = PlayerPrefs.GetInt("CHIron", StaticValue.CHIron);
-        StaticValue.CHGold = PlayerPrefs.GetInt("CHGold", StaticValue.CHGold);
-
         
+        StaticValue.CHTree = PlayerPrefs.GetInt("CHTree", StaticValue.CHTree);
+    }
 
+    [ContextMenu("Give - Mony")]
+    public void GiveMony()
+    {
+        StaticValue.Emerald += 9999;
     }
     public void GiveText()
     {

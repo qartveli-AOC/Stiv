@@ -16,6 +16,8 @@ public class ReloadGame : MonoBehaviour
     {
         
         savePoint = FindAnyObjectByType<SavePoint>();
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
     void OnTriggerEnter(Collider other)
     {

@@ -79,6 +79,10 @@ public class InMiningBlock : MonoBehaviour
                 StaticValue.CHDiamond += resNum;
                 PlayerPrefs.SetInt("CHDiamond", StaticValue.CHDiamond);
                 break;
+            case Res.Tree:
+                StaticValue.CHTree += resNum;
+                PlayerPrefs.SetInt("CHTree", StaticValue.Tree);
+                break;
 
         }
 
@@ -100,5 +104,5 @@ public class InMiningBlock : MonoBehaviour
 }
 public enum Res
 {
-    Bread, Coal, RedStone, Iron, Gold, Emerald, Diamond
+    Bread, Coal, RedStone, Iron, Gold, Emerald, Diamond,Tree
 }

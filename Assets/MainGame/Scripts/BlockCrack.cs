@@ -29,8 +29,7 @@ public class BlockCrack : MonoBehaviour
         mainCamera = transform.GetChild(2).GetComponent<Camera>();
 
 
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+       
 
     }
 

@@ -27,6 +27,7 @@ public class StaticValue
     public static int Gold;
     public static int Iron;
     public static int Bread;
+    public static int Tree;
     public static int BaseLevel=1;
 
     public static int CHEmerald;
@@ -36,7 +37,8 @@ public class StaticValue
     public static int CHGold;
     public static int CHIron;
     public static int CHBread;
-    
+    public static int CHTree;
+
 
 
 

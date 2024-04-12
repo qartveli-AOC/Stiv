@@ -25,16 +25,15 @@ public class UpgradeInShop : MonoBehaviour
         keyButton = gameObject.name;
         nowUpdate = PlayerPrefs.GetInt(keyButton,0);
 
-        if (nowUpdate > 0)
-        price = price*(priceUpperX * nowUpdate);
+        price = PlayerPrefs.GetInt("price" + keyButton, price);
         imgMax = transform.GetChild(1).GetComponent<Image>();
 
         if (nowUpdate >= maxUpdate)
             imgMax.enabled = true;
 
         priceTxt = transform.GetChild(0).GetChild(1).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>();
-        priceTxt.text = price.ToString();
 
+        priceTxt.text = price.ToString();
         _audioSource = GetComponent<AudioSource>();
     }
     [ContextMenu("ResetInfo")]
@@ -59,12 +58,7 @@ public class UpgradeInShop : MonoBehaviour
             StaticValue.Heart += 1;
             PlayerPrefs.SetInt("Heart", StaticValue.Heart);
             PlayerPrefs.SetInt("thisHeart",StaticValue.Heart);
-            nowUpdate++;
-            PlayerPrefs.SetInt(keyButton,nowUpdate);
-            _audioSource.PlayOneShot(buy);
-            StaticValue.Emerald -= price;
-            if (nowUpdate >= maxUpdate)
-                imgMax.enabled = true;
+            ShowInfo();
         }
         else
             _audioSource.PlayOneShot(cantBuy);
@@ -76,11 +70,8 @@ public class UpgradeInShop : MonoBehaviour
         {
             StaticValue.EarnPower = (nowUpdate * StaticValue.EarnPower) + 1;
             PlayerPrefs.SetInt("EarnPower", StaticValue.EarnPower);
-            nowUpdate++;
-            PlayerPrefs.SetInt(keyButton, nowUpdate);
-            StaticValue.Emerald -= price;
-            if (nowUpdate >= maxUpdate)
-                imgMax.enabled = true;
+            ShowInfo();
+
         }
         else
             _audioSource.PlayOneShot(cantBuy);
@@ -91,13 +82,11 @@ public class UpgradeInShop : MonoBehaviour
     {
         if(nowUpdate < maxUpdate && StaticValue.Emerald >= price)
         {
-            StaticValue.RunSpeed += 0.08f;
+            StaticValue.RunSpeed += 0.15f;
             PlayerPrefs.SetFloat("RunSpeed", StaticValue.RunSpeed);
             nowUpdate++;
-            PlayerPrefs.SetInt(keyButton, nowUpdate);
-            StaticValue.Emerald -= price;
-            if (nowUpdate >= maxUpdate)
-                imgMax.enabled = true;
+            ShowInfo();
+
         }
         else
             _audioSource.PlayOneShot(cantBuy);
@@ -108,12 +97,8 @@ public class UpgradeInShop : MonoBehaviour
         if(nowUpdate < maxUpdate && StaticValue.Emerald >= price)
         {
             StaticValue.Attack += 1;
-            PlayerPrefs.SetInt("Attack", StaticValue.Attack);
-            nowUpdate++;
-            PlayerPrefs.SetInt(keyButton, nowUpdate);
-            StaticValue.Emerald -= price;
-            if (nowUpdate >= maxUpdate)
-                imgMax.enabled = true;
+            PlayerPrefs.SetInt("Attack", StaticValue.Attack);           
+            ShowInfo();
         }
         else
             _audioSource.PlayOneShot(cantBuy);
@@ -121,12 +106,8 @@ public class UpgradeInShop : MonoBehaviour
     public void UnStop()
     {
         if (nowUpdate < maxUpdate && StaticValue.Emerald >= price)
-        {
-            nowUpdate++;
-            PlayerPrefs.SetInt(keyButton, nowUpdate);
-            StaticValue.Emerald -= price;
-            if (nowUpdate >= maxUpdate)
-                imgMax.enabled = true;
+        {          
+            ShowInfo();
         }
         else
             _audioSource.PlayOneShot(cantBuy);
@@ -137,6 +118,7 @@ public class UpgradeInShop : MonoBehaviour
         {
             nowUpdate++;
             PlayerPrefs.SetInt(keyButton, nowUpdate);
+            _audioSource.PlayOneShot(buy);
             StaticValue.Emerald -= price;
             if (nowUpdate >= maxUpdate)
                 imgMax.enabled = true;
@@ -148,14 +130,9 @@ public class UpgradeInShop : MonoBehaviour
     {
         if(nowUpdate < maxUpdate && StaticValue.Emerald >= price)
         {
+            ShowInfo();
             StaticValue.BaseLevel++;
-            PlayerPrefs.SetInt("BaseLevel", StaticValue.BaseLevel);
-
-            nowUpdate++;
-            PlayerPrefs.SetInt(keyButton, nowUpdate);
-            StaticValue.Emerald -= price;
-            if (nowUpdate >= maxUpdate)
-                imgMax.enabled = true;
+            PlayerPrefs.SetInt("BaseLevel", StaticValue.BaseLevel);                          
         }
         else
             _audioSource.PlayOneShot(cantBuy);
@@ -165,13 +142,9 @@ public class UpgradeInShop : MonoBehaviour
     {
         if (nowUpdate < maxUpdate && StaticValue.Emerald >= price)
         {
+            ShowInfo();
             StaticValue.PicleSpeed += 0.2f;
-            PlayerPrefs.SetFloat("PicleSpeed", StaticValue.PicleSpeed);
-            nowUpdate++;
-            PlayerPrefs.SetInt(keyButton, nowUpdate);
-            StaticValue.Emerald -= price;
-            if (nowUpdate >= maxUpdate)
-                imgMax.enabled = true;
+            PlayerPrefs.SetFloat("PicleSpeed", StaticValue.PicleSpeed);                        
         }
         else
             _audioSource.PlayOneShot(cantBuy);
@@ -180,15 +153,23 @@ public class UpgradeInShop : MonoBehaviour
     {
         if (nowUpdate < maxUpdate && StaticValue.Emerald >= price) 
         {
+             ShowInfo();   
             StaticValue.MoreRes++;
-            PlayerPrefs.SetFloat("MoreRes", StaticValue.MoreRes);
-            nowUpdate++;
-            PlayerPrefs.SetInt(keyButton, nowUpdate);
-            StaticValue.Emerald -= price;
-            if (nowUpdate >= maxUpdate)
-                imgMax.enabled = true;
+            PlayerPrefs.SetFloat("MoreRes", StaticValue.MoreRes);                
         }
         else
             _audioSource.PlayOneShot(cantBuy);
+    }
+    public void ShowInfo()
+    {
+        _audioSource.PlayOneShot(buy);
+        nowUpdate++;            
+        PlayerPrefs.SetInt(keyButton, nowUpdate);
+        StaticValue.Emerald -= price;
+        if (nowUpdate >= maxUpdate)
+            imgMax.enabled = true;       
+            price = price  * nowUpdate;
+        PlayerPrefs.SetInt("price" + keyButton, price);
+        priceTxt.text = price.ToString();
     }
 }

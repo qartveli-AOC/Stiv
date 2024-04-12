@@ -4,11 +4,11 @@ public class PlayerLook : MonoBehaviour
 {
     public Camera cam;
     private float xRotation = 0f;
+     static public float ForMenuSensty = 30;
+    private float xSensetivity = ForMenuSensty;
+    private float ySensetivity = ForMenuSensty;
 
-    private float xSensetivity=30f;
-    private float ySensetivity=30f;
-
-
+    
   public void LookStart(Vector2 value)
     {
       float mouseY = value.y;

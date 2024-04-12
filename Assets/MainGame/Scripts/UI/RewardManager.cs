@@ -13,6 +13,7 @@ public class RewardManager : MonoBehaviour
     private void Start()
     {
         Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         _takeEmerald = GiveEmerald + StaticValue.EarnPower;
         StartCoroutine(ShowRewardButton());
 
