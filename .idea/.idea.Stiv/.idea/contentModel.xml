@@ -103,6 +103,7 @@
             <e p="LanSetter.cs" t="Include" />
             <e p="LevelsOpen.cs" t="Include" />
             <e p="LookPlayerBanner.cs" t="Include" />
+            <e p="MassiveObject.cs" t="Include" />
             <e p="ReloadGame.cs" t="Include" />
             <e p="SavePoint.cs" t="Include" />
             <e p="ShowHeart.cs" t="Include" />
@@ -120,6 +121,7 @@
           <e p="villager voice" t="Include" />
         </e>
         <e p="Materials" t="Include" />
+        <e p="MusicWork.cs" t="Include" />
         <e p="PACKAGES" t="Include">
           <e p="TRAPS AND OBSTACLES" t="Include">
             <e p="Traps-Obstacles" t="Include">
@@ -221,6 +223,7 @@
           </e>
         </e>
         <e p="Resset.cs" t="Include" />
+        <e p="SaveValue.cs" t="Include" />
         <e p="Scene Teleportation Kit" t="Include">
           <e p="Art" t="Include">
             <e p="Animations" t="Include" />
@@ -259,6 +262,7 @@
           </e>
           <e p="PlayerShooter.cs" t="Include" />
         </e>
+        <e p="Sensety.cs" t="Include" />
         <e p="Standard Assets" t="Include">
           <e p="Character Controllers" t="Include">
             <e p="Sources" t="Include">

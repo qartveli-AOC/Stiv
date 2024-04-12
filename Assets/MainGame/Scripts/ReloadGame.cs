@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -16,9 +17,11 @@ public class ReloadGame : MonoBehaviour
     {
         
         savePoint = FindAnyObjectByType<SavePoint>();
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        StartCoroutine(CursorDisableActivator());
     }
+
+    
+
     void OnTriggerEnter(Collider other)
     {
         
@@ -51,6 +54,13 @@ public class ReloadGame : MonoBehaviour
         Debug.Log("Dieing Scene");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Debug.Log("Dieing after Scene");
+    }
+
+    private IEnumerator CursorDisableActivator()
+    {
+        yield return new WaitForSeconds(0.4f);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
   
 }
