@@ -787,13 +787,13 @@ GameObject:
   m_Component:
   - component: {fileID: 5023372907573021545}
   - component: {fileID: 8861057646464514176}
-  - component: {fileID: 3916193994419610961}
   - component: {fileID: 6360668316351402770}
   - component: {fileID: 6124683807194240026}
   - component: {fileID: 8378862061914460863}
   - component: {fileID: 6611706450013337114}
   - component: {fileID: 2427276614919321816}
   - component: {fileID: 4867911565485224266}
+  - component: {fileID: 5999234561831918897}
   m_Layer: 11
   m_Name: MagniCube (1)
   m_TagString: Untagged
@@ -839,18 +839,6 @@ NavMeshAgent:
   m_BaseOffset: 0.77
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &3916193994419610961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9150423054864976076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 213bee3cae16f254695df548a16e59d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6360668316351402770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -882,9 +870,9 @@ MonoBehaviour:
   onDie:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3916193994419610961}
-        m_TargetAssemblyTypeName: Commponents.DestroyComponent, Assembly-CSharp
-        m_MethodName: DestroyCurrentObj
+      - m_Target: {fileID: 5999234561831918897}
+        m_TargetAssemblyTypeName: DestroySlime, Assembly-CSharp
+        m_MethodName: DestroySlimeStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -905,7 +893,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b5a5a64eb62a8b94992b76b02e12299d, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1059,3 +1047,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.45, y: 3.92, z: 2.5}
   m_Center: {x: -0.22384644, y: 0.30779266, z: 0.139822}
+--- !u!114 &5999234561831918897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9150423054864976076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82b0b643626a674ab5ffae96d01f1c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collider:
+  - {fileID: 4867911565485224266}
+  - {fileID: 6611706450013337114}
