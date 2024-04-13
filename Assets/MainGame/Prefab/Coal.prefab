@@ -730,6 +730,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2183760405886802885}
     m_Modifications:
+    - target: {fileID: 323114751374944976, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.56
+      objectReference: {fileID: 0}
     - target: {fileID: 3112178735121356277, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -748,7 +752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3953760895362647769, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
       propertyPath: m_SortingOrder
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3967272484353847629, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
       propertyPath: m_Layer
@@ -756,7 +760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4333919294376282030, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
       propertyPath: m_SortingOrder
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4351043954478751086, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -808,7 +812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5878422400989458683, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
       propertyPath: m_SortingOrder
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6730367423832899415, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
       propertyPath: m_Layer
@@ -816,15 +820,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6916571641093786237, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
       propertyPath: m_SortingOrder
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7041998107275934096, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
       propertyPath: m_SortingOrder
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8693518942224480294, guid: a7d03e10c6191ad40b43d9f58e51586f, type: 3}
       propertyPath: m_SortingOrder
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

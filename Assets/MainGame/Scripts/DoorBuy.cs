@@ -29,7 +29,7 @@ public class DoorBuy : MonoBehaviour
      private TextMeshProUGUI  coal_txt;
      private TextMeshProUGUI  redStone_txt;   
      public TextMeshProUGUI  baseLevel_txt;
-    public MassiveObject massiveIMG;
+     public MassiveObject massiveIMG;
 
     bool isWorkCorutine = false;
 
@@ -57,8 +57,7 @@ public class DoorBuy : MonoBehaviour
     {
         
         openLevels?.Invoke();
-        massiveIMG = FindAnyObjectByType<MassiveObject>();
-        
+        massiveIMG = FindAnyObjectByType<MassiveObject>();       
         FindText();
             keyCheckCoroutine = StartCoroutine(IKeyChecker());          
               
@@ -80,7 +79,7 @@ public class DoorBuy : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.E))
                 {
-                    Debug.Log("E");
+                    
                     StartColorChange();
                     if (StaticValue.Emerald >= Emerald && StaticValue.Coal >= Coal && StaticValue.RedStone >= RedStone && StaticValue.Diamond >= Diamond && StaticValue.Bread >= Bread && StaticValue.Iron >= Iron && StaticValue.Gold >= Gold)
                     {
@@ -89,6 +88,7 @@ public class DoorBuy : MonoBehaviour
                         StopCoroutine(keyCheckCoroutine);
                         PriceCount();
                         buyRoom?.Invoke();
+                        massiveIMG.TurnAll();
                         PlayerPrefs.SetInt(doorKey, 0);
                         gameObject.SetActive(false);
                     }

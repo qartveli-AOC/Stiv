@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 536c0f99fde9c0d46b95ecee0497f33d, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 8f3666dc27375284e9357ddda93ae05d, type: 2}
 --- !u!1001 &2156322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3123,13 +3123,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 231296101}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+  m_LocalRotation: {x: 0.49987987, y: -0.49926156, z: 0.5000648, w: 0.5007926}
   m_LocalPosition: {x: 28.805695, y: 55.49999, z: -2.6138327}
   m_LocalScale: {x: 7.4816575, y: 0.10689188, z: 113.836296}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2096508752}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 89.903, y: 0, z: 89.917}
 --- !u!65 &231296103
 BoxCollider:
   m_ObjectHideFlags: 0

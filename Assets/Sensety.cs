@@ -7,28 +7,28 @@ using UnityEngine.UI;
 public class Sensety : MonoBehaviour
 {
   
-    public static Slider slider;
-    private void Awake()
+    public  Slider slider;
+    
+
+
+    private void Start()
     {
         slider = GetComponent<Slider>();
-        slider.value = PlayerPrefs.GetFloat("SenceSlider", 0.5f);
+        slider.minValue = 1f;
+        slider.maxValue = 25f;
+        slider.value = PlayerPrefs.GetFloat("SenceSlider", slider.maxValue);
+        PlayerLook.GiveSensety = slider.value;
     }
-    
-    
 
-    private void OnEnable()
-    {
-      
-       
-        Debug.LogError("SensetyStart" +"slider.value" + slider.value  );
-    }
+
 
     public void SaverSlider()
-    {
-        PlayerPrefs.SetFloat("SenceSlider", slider.value);
-        Debug.LogError("Sensetysave" +"slider.value" + slider.value  );
+    {      
+        PlayerPrefs.SetFloat("SenceSlider", slider.value); 
+        PlayerLook.GiveSensety = slider.value;
     }
-
     
-   
+
+
+
 }

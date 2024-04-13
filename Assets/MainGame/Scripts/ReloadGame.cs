@@ -17,7 +17,7 @@ public class ReloadGame : MonoBehaviour
     {
         
         savePoint = FindAnyObjectByType<SavePoint>();
-        StartCoroutine(CursorDisableActivator());
+       
     }
 
     
@@ -56,11 +56,6 @@ public class ReloadGame : MonoBehaviour
         Debug.Log("Dieing after Scene");
     }
 
-    private IEnumerator CursorDisableActivator()
-    {
-        yield return new WaitForSeconds(0.4f);
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
-    }
+   }
   
-}
+

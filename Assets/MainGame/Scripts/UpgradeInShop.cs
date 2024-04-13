@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class UpgradeInShop : MonoBehaviour
 {
     [SerializeField] int price;
+    
     [SerializeField] int priceUpperX;
     [SerializeField] int maxUpdate;
     [SerializeField] Image imgMax;
@@ -168,7 +169,7 @@ public class UpgradeInShop : MonoBehaviour
         StaticValue.Emerald -= price;
         if (nowUpdate >= maxUpdate)
             imgMax.enabled = true;       
-            price = price  * nowUpdate;
+            price = price + (nowUpdate*nowUpdate * 4);
         PlayerPrefs.SetInt("price" + keyButton, price);
         priceTxt.text = price.ToString();
     }

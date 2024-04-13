@@ -10,10 +10,10 @@ public class RewardManager : MonoBehaviour
     [SerializeField] private int GiveEmerald = 10;
     private int _takeEmerald;
         
-    private void Start()
+    private void OnEnable()
     {
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
+       
+        
         _takeEmerald = GiveEmerald + StaticValue.EarnPower;
         StartCoroutine(ShowRewardButton());
 
@@ -38,7 +38,10 @@ public class RewardManager : MonoBehaviour
 
     public IEnumerator ShowRewardButton()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        yield return new WaitForSeconds(0.9f);
         noRewardButton.SetActive(true);
         emeraldTakeText.text = _takeEmerald.ToString();
     }

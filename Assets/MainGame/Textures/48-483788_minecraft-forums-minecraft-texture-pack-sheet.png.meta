@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1467,6 +1467,48 @@ TextureImporter:
       bones: []
       spriteID: 9323ab132e26f6d4fb65c99c01c4533c
       internalID: 1908143526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 625
+        width: 48
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e9ab82a43640446af80c47d6815d4d
+      internalID: 423102898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-483788_minecraft-forums-minecraft-texture-pack-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd63eb2d97fd504d986448c5f549991
+      internalID: -1637555091
       vertices: []
       indices: 
       edges: []

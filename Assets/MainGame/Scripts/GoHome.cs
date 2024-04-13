@@ -16,13 +16,14 @@ public class GoHome : MonoBehaviour
     private void Start()
     {
         nextLevelNum += 1;
+        StartCoroutine(CursorDisableActivator());
     }
     private void OnTriggerEnter(Collider other)
     {
-        
+
         PlayerPrefs.SetInt("Level" + nextLevelNum, 1);
         levelFinish?.Invoke();
-        
+
     }
     public void NextLevel()
     {
@@ -34,27 +35,40 @@ public class GoHome : MonoBehaviour
     public void GoBase()
     {
         ResetHeart();
-        
-        SceneManager.LoadScene(home);       
+
+        SceneManager.LoadScene(home);
     }
 
     public void ResetHeart()
     {
-        
 
-        
-        PlayerPrefs.SetInt("thisHeart", StaticValue.Heart);       
+
+
+        PlayerPrefs.SetInt("thisHeart", StaticValue.Heart);
     }
     public void ResetPosition()
-    { 
-            values[0] = 1.453161f;
-            values[1] = -4.68f;
-            values[2] = -26.86665f;
-            PlayerPrefs.SetFloat("value" + 0, values[0]);
-            PlayerPrefs.SetFloat("value" + 1, values[1]);
-            PlayerPrefs.SetFloat("value" + 2, values[2]);
-        }
+    {
+        values[0] = 1.453161f;
+        values[1] = -4.68f;
+        values[2] = -26.86665f;
+        PlayerPrefs.SetFloat("value" + 0, values[0]);
+        PlayerPrefs.SetFloat("value" + 1, values[1]);
+        PlayerPrefs.SetFloat("value" + 2, values[2]);
     }
+
+
+    private IEnumerator CursorDisableActivator()
+    {
+        yield return new WaitForSeconds(0.4f);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
+    }
+
+}
+
+
+
 
 
 
