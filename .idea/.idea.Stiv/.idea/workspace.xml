@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Lobby.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/PlayerLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/PlayerLook.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sensety.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sensety.cs" afterDir="false" />
     </list>
@@ -82,6 +81,7 @@
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/RewardManager.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/ReloadGame.cs" />
         <option value="$PROJECT_DIR$/Assets/SaveValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/SliderTester.cs" />
         <option value="$PROJECT_DIR$/Assets/Sensety.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Input/PlayerLook.cs" />
       </list>
@@ -143,6 +143,7 @@
       <workItem from="1712738457843" duration="4350000" />
       <workItem from="1712925798013" duration="6000" />
       <workItem from="1712926695533" duration="1674000" />
+      <workItem from="1712995428412" duration="790000" />
     </task>
     <servers />
   </component>

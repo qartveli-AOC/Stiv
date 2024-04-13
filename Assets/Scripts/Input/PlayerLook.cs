@@ -9,10 +9,21 @@ public class PlayerLook : MonoBehaviour
     public float xSensetivity = 30;
     public float ySensetivity = 30;
 
+    private float multiplier = 100;
+
     private void OnEnable()
     {
         xSensetivity = Sensety.slider.value;
-        ySensetivity =Sensety.slider.value;
+        ySensetivity = Sensety.slider.value;
+        xSensetivity *= multiplier;
+        ySensetivity *= multiplier;
+        if (xSensetivity == 0)
+        {
+            xSensetivity = 0.1f * multiplier;
+            ySensetivity = 0.1f * multiplier;
+        }
+        
+        
         Debug.LogError("PlayerLookStart" +"XSens YSens" +xSensetivity + "///" + ySensetivity );
     }
 
@@ -41,7 +52,7 @@ public class PlayerLook : MonoBehaviour
     {
         xSensetivity = sensitivity;
         ySensetivity = sensitivity;
-        Debug.LogError("FAFAFAFAFAFAFAF");
+        Debug.LogError("SenceChangeXANDY");
     }
     
 }

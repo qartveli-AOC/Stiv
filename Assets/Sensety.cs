@@ -10,11 +10,8 @@ public class Sensety : MonoBehaviour
     public static Slider slider;
     private void Awake()
     {
-        slider = transform.GetChild(0).GetChild(4).GetChild(3).GetChild(1).GetComponent<Slider>();
-        slider.minValue = 10;
-        slider.maxValue = 100;
-        
-        slider.value = PlayerPrefs.GetFloat("SensentivitySavere123", 45);
+        slider = GetComponent<Slider>();
+        slider.value = PlayerPrefs.GetFloat("SenceSlider", 0.5f);
     }
     
     
@@ -28,7 +25,7 @@ public class Sensety : MonoBehaviour
 
     public void SaverSlider()
     {
-        PlayerPrefs.SetFloat("SensentivitySavere123", slider.value);
+        PlayerPrefs.SetFloat("SenceSlider", slider.value);
         Debug.LogError("Sensetysave" +"slider.value" + slider.value  );
     }
 
