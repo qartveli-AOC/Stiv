@@ -66,6 +66,12 @@
           </e>
           <e p="Scenes" t="Include">
             <e p="Lobby" t="Include" />
+            <e p="Mission 12" t="Include" />
+            <e p="Mission 13" t="Include" />
+            <e p="Mission 14" t="Include" />
+            <e p="Mission 18" t="Include" />
+            <e p="Mission 19" t="Include" />
+            <e p="Mission 25" t="Include" />
             <e p="Mission 27" t="Include" />
             <e p="Mission 4" t="Include" />
           </e>

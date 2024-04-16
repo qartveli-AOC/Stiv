@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json.Linq;
 using System.Collections;
 using System.Collections.Generic;
@@ -5,6 +6,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using YG;
 
 public class GoHome : MonoBehaviour
 {
@@ -13,6 +15,38 @@ public class GoHome : MonoBehaviour
     [SerializeField] private UnityEvent levelFinish;
     private float[] values = new float[3];
     private Image[] image;
+
+    private int _showFullscreenAd;
+    public bool _canGoHome = true;
+
+    private void Awake()
+    {
+        _showFullscreenAd = PlayerPrefs.GetInt("_showFullscreenAd", 0);
+        if (_showFullscreenAd == 0)
+        {
+            YandexGame.FullscreenShow();
+            PlayerPrefs.SetInt("_showFullscreenAd",1);
+        }
+
+    }
+
+    public void FullScreenAdActivator()
+    {
+        PlayerPrefs.SetInt("_showFullscreenAd",0);
+    }
+
+
+    private void Update()
+    {
+        if (_canGoHome == true)
+        {
+            if (Input.GetKeyDown(KeyCode.B))
+            {
+                SceneManager.LoadScene("Lobby");
+            }
+        }
+    }
+
     private void Start()
     {
         nextLevelNum += 1;

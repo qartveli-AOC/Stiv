@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c168c2cd-4015-4dc5-a21a-db322c57eaa1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stiv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/PlayerLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/PlayerLook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sensety.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sensety.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Prefab/Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Prefab/Portal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scenes/Lobby.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainGame/Scripts/GoHome.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainGame/Scripts/GoHome.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/WorkingData/InfoYG.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/WorkingData/InfoYG.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,6 @@
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/SavePoint.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Controller/TrapController/AirTrapController.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/HealthComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/GoHome.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/CurrencyExchanger.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/ChestScript.cs" />
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/Commponents/DisableObject.cs" />
@@ -84,6 +86,7 @@
         <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/UI/SliderTester.cs" />
         <option value="$PROJECT_DIR$/Assets/Sensety.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Input/PlayerLook.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainGame/Scripts/GoHome.cs" />
       </list>
     </option>
   </component>
@@ -144,6 +147,8 @@
       <workItem from="1712925798013" duration="6000" />
       <workItem from="1712926695533" duration="1674000" />
       <workItem from="1712995428412" duration="790000" />
+      <workItem from="1713013926127" duration="654000" />
+      <workItem from="1713248082519" duration="1294000" />
     </task>
     <servers />
   </component>
